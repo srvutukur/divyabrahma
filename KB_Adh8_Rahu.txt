@@ -1,0 +1,40 @@
+SOURCE: ఫలదీపిక (Phaladeepika) — మంత్రేశ్వర రచన
+ADHYAYA: VIII — అష్టమో అధ్యాయః
+TOPIC: రాహు 12 భావాలలో ఫలాలు (Slokas 25-27)
+════════════════════════════════════════════════════════════════
+
+RULE_RAHU_BHAVA1 | రాహు 1వ భావంలో
+English (Phaladeepika exact — Sloka 25): If at a birth Rahu occupy the Lagna, the person concerned will have a short life, possess wealth and strength, and will suffer from diseases in the higher limbs of his body (head, face, etc).
+
+RULE_RAHU_BHAVA2 | రాహు 2వ భావంలో
+English (Phaladeepika exact — Sloka 25): The person who has at his birth Rahu in the 2nd house will be dubious or insincere in his speech, will suffer from disease in the mouth or face, will be tender-hearted, will get wealth through his sovereign, will be wrathful and happy.
+
+RULE_RAHU_BHAVA3 | రాహు 3వ భావంలో
+English (Phaladeepika exact — Sloka 25): Rahu in the 3rd house makes the person born proud, hostile to his brothers, strong-willed, long-lived and wealthy.
+
+RULE_RAHU_BHAVA4 | రాహు 4వ భావంలో
+English (Phaladeepika exact — Sloka 25): If Rahu should occupy the 4th house, the person born will be a fool, will cause sorrow, will have friends, will be short-lived and happy at some time or other.
+
+RULE_RAHU_BHAVA5 | రాహు 5వ భావంలో
+English (Phaladeepika exact — Sloka 26): If at a person's birth Rahu should be posited in the 5th house, he will talk through the nose, will be childless, will be hard-hearted and suffer from belly-ache.
+
+RULE_RAHU_BHAVA6 | రాహు 6వ భావంలో
+English (Phaladeepika exact — Sloka 26): If Rahu be in the 6th house, the person born will be troubled by his enemies, or oppressed by malefic planets (demons). He will suffer from a disease in the anus. He will be wealthy and long-lived.
+
+RULE_RAHU_BHAVA7 | రాహు 7వ భావంలో
+English (Phaladeepika exact — Sloka 26): When Rahu occupies the 7th house, the person concerned will lose his wealth through intrigues with women, suffer separation from his beloved, lose his manhood, become self-willed and silly.
+
+RULE_RAHU_BHAVA8 | రాహు 8వ భావంలో
+English (Phaladeepika exact — Sloka 26): If Rahu occupy the 8th house, the person born will be short-lived, will do impure acts, will be defective of a limb, will suffer from wind-disease and will have limited issue.
+
+RULE_RAHU_BHAVA9 | రాహు 9వ భావంలో
+English (Phaladeepika exact — Sloka 27): If Rahu happens to be in the 9th house at a birth, the person concerned will speak opposingly. He will be the head of his clan, the headman of a village or mayor of a city and will commit unrighteous deeds.
+
+RULE_RAHU_BHAVA10 | రాహు 10వ భావంలో
+English (Phaladeepika exact — Sloka 27): Rahu in the 10th house makes the native famous; the man will have a limited number of issue, will engage himself in other's business, will not do any good act and will be fearless.
+
+RULE_RAHU_BHAVA11 | రాహు 11వ భావంలో
+English (Phaladeepika exact — Sloka 27): If Rahu be in the 11th house, the person born will be prosperous, will not have many children, will be long-lived and will suffer from ear disease.
+
+RULE_RAHU_BHAVA12 | రాహు 12వ భావంలో
+English (Phaladeepika exact — Sloka 27): If Rahu should occupy the 12th house, the person concerned will be intent on committing sinful acts secretly, will spend much and will suffer from a water-disease.

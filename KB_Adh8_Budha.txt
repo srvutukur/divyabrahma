@@ -1,0 +1,40 @@
+SOURCE: ఫలదీపిక (Phaladeepika) — మంత్రేశ్వర రచన
+ADHYAYA: VIII — అష్టమో అధ్యాయః
+TOPIC: బుధుడు 12 భావాలలో ఫలాలు (Slokas 11-13)
+════════════════════════════════════════════════════════════════
+
+RULE_BUDHA_BHAVA1 | బుధుడు 1వ భావంలో
+English (Phaladeepika exact — Sloka 11): If at a person's birth Mercury occupy the Lagna, he will be long-lived, speaking sweetly and cleverly. He will be sharp-witted, and learned in all Sastras.
+
+RULE_BUDHA_BHAVA2 | బుధుడు 2వ భావంలో
+English (Phaladeepika exact — Sloka 11): If Mercury be in the 2nd house, the person born will acquire wealth by his own talents, will be a poet, sincere and attractive in his speech, and will eat sumptuous food.
+
+RULE_BUDHA_BHAVA3 | బుధుడు 3వ భావంలో
+English (Phaladeepika exact — Sloka 11): If Mercury should occupy the 3rd house at a birth, the person concerned will be brave, of medium life, and have good brothers; he will suffer fatigue and be dejected.
+
+RULE_BUDHA_BHAVA4 | బుధుడు 4వ భావంలో
+English (Phaladeepika exact — Sloka 11): Mercury occupying the 4th house at a birth makes the person concerned learned, witty in speech, happy and possessed of friends, lands, corn, wealth and enjoyment.
+
+RULE_BUDHA_BHAVA5 | బుధుడు 5వ భావంలో
+English (Phaladeepika exact — Sloka 12): If Mercury be in the 5th house at a birth, the person concerned, will be learned, happy and courageous. He will have a good number of children and will be conversant with charms or spells.
+
+RULE_BUDHA_BHAVA6 | బుధుడు 6వ భావంలో
+English (Phaladeepika exact — Sloka 12): Mercury in the 6th house makes the person born angry through disputes, harsh in speech and idle. The native will destroy the power of his enemies.
+
+RULE_BUDHA_BHAVA7 | బుధుడు 7వ భావంలో
+English (Phaladeepika exact — Sloka 12): When Mercury occupies the 7th house, the person born will be learned; he will dress himself beautifully, will have all the greatness, and will have a rich lady as his wife.
+
+RULE_BUDHA_BHAVA8 | బుధుడు 8వ భావంలో
+English (Phaladeepika exact — Sloka 12): If Mercury should be posited in the 8th house at a birth, the person concerned will be widely renowned, and long-lived; he will be the supporter of his family, a lord and a commander of the army.
+
+RULE_BUDHA_BHAVA9 | బుధుడు 9వ భావంలో
+English (Phaladeepika exact — Sloka 13): If at a birth Mercury should occupy the 9th house from the Lagna, the person concerned will have learning and wealth; he will be of good conduct; he will be religious-minded, conversant with everything, and very eloquent in speech.
+
+RULE_BUDHA_BHAVA10 | బుధుడు 10వ భావంలో
+English (Phaladeepika exact — Sloka 13): If Mercury be in the 10th house, the person born will be successful in whatever he undertakes, will have good learning, strength, intelligence, and happiness. He will do good acts and be truthful.
+
+RULE_BUDHA_BHAVA11 | బుధుడు 11వ భావంలో
+English (Phaladeepika exact — Sloka 13): Mercury in the 11th house makes the person born long-lived, truthful, very rich, happy and possessed of servants.
+
+RULE_BUDHA_BHAVA12 | బుధుడు 12వ భావంలో
+English (Phaladeepika exact — Sloka 13): If Mercury be in the 12th house, the person born will be miserable, devoid of learning, suffer humiliation, will be cruel and inactive.

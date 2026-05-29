@@ -1,0 +1,40 @@
+SOURCE: ఫలదీపిక (Phaladeepika) — మంత్రేశ్వర రచన
+ADHYAYA: VIII — అష్టమో అధ్యాయః
+TOPIC: కుజుడు 12 భావాలలో ఫలాలు (Slokas 8-10)
+════════════════════════════════════════════════════════════════
+
+RULE_KUJA_BHAVA1 | కుజుడు 1వ భావంలో
+English (Phaladeepika exact — Sloka 8): If Mars occupy the Lagna at a person's birth, he will have an injured limb; he will be short-lived and will be very cruel and adventurous.
+
+RULE_KUJA_BHAVA2 | కుజుడు 2వ భావంలో
+English (Phaladeepika exact — Sloka 8): If Mars be in the 2nd house, the person concerned will be adverse or ugly-faced, devoid of learning and wealth and will be dependent on bad people.
+
+RULE_KUJA_BHAVA3 | కుజుడు 3వ భావంలో
+English (Phaladeepika exact — Sloka 8): If Mars occupy the 3rd house, the person born will be of good qualities, possess wealth, will be brave, unassailable, happy and will have no brothers.
+
+RULE_KUJA_BHAVA4 | కుజుడు 4వ భావంలో
+English (Phaladeepika exact — Sloka 8): If at a birth Mars should occupy the 4th house, the person concerned will be without friends, mother, lands, happiness, house and vehicles.
+
+RULE_KUJA_BHAVA5 | కుజుడు 5వ భావంలో
+English (Phaladeepika exact — Sloka 9): If at a birth Mars be in the 5th house, the person concerned will be unhappy, without children, full of reverses, back-biting and weak-minded.
+
+RULE_KUJA_BHAVA6 | కుజుడు 6వ భావంలో
+English (Phaladeepika exact — Sloka 9): If Mars occupy the 6th house, the person born will be exceedingly smitten with love, wealthy, and famous; he will be a King and victorious (in battle).
+
+RULE_KUJA_BHAVA7 | కుజుడు 7వ భావంలో
+English (Phaladeepika exact — Sloka 9): Mars in the 7th house makes the person born do improper acts, suffer affliction through disease, wander in the roads and lose his wife.
+
+RULE_KUJA_BHAVA8 | కుజుడు 8వ భావంలో
+English (Phaladeepika exact — Sloka 9): If Mars be in the 8th house, the person born will have a deformed body, will be poor, short-lived and cursed by the people.
+
+RULE_KUJA_BHAVA9 | కుజుడు 9వ భావంలో
+English (Phaladeepika exact — Sloka 10): If Mars occupy the 9th house at a person's birth, the native will, though a friend of the sovereign, be hated by others; he will be fatherless and will commit homicide.
+
+RULE_KUJA_BHAVA10 | కుజుడు 10వ భావంలో
+English (Phaladeepika exact — Sloka 10): Mars in the 10th house makes the person born a King, cruel, liberal and praised by important people.
+
+RULE_KUJA_BHAVA11 | కుజుడు 11వ భావంలో
+English (Phaladeepika exact — Sloka 10): If at a birth Mars should be in the 11th house, the person concerned will be endowed with riches and happiness. He will be brave, will have no sorrow and possessed of good character.
+
+RULE_KUJA_BHAVA12 | కుజుడు 12వ భావంలో
+English (Phaladeepika exact — Sloka 10): When Mars occupies the 12th house at a birth, the person concerned will have deformed eyes; he will be cruel, and without a wife. He will be a slanderer and a mean wretch.

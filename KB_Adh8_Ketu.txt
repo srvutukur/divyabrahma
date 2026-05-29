@@ -1,0 +1,40 @@
+SOURCE: ఫలదీపిక (Phaladeepika) — మంత్రేశ్వర రచన
+ADHYAYA: VIII — అష్టమో అధ్యాయః
+TOPIC: కేతు 12 భావాలలో ఫలాలు (Slokas 28-34)
+════════════════════════════════════════════════════════════════
+
+RULE_KETU_BHAVA1 | కేతు 1వ భావంలో
+English (Phaladeepika exact — Sloka 28): The person at whose birth Ketu occupies the Lagna will be ungrateful, unhappy and bearing tales against others. He will be an outcast, fallen from his position, will have a deformed body and associating with the wicked.
+
+RULE_KETU_BHAVA2 | కేతు 2వ భావంలో
+English (Phaladeepika exact — Sloka 28): Ketu in the 2nd house makes the native devoid of learning and riches. His speech will be very vile in quality, and he will have a sinister look. He will ever be eating at other's tables.
+
+RULE_KETU_BHAVA3 | కేతు 3వ భావంలో
+English (Phaladeepika exact — Sloka 29): Ketu in the 3rd house confers on the native long life, strength, wealth and fame. The person will live happily with his wife and eat good food. He will lose a brother.
+
+RULE_KETU_BHAVA4 | కేతు 4వ భావంలో
+English (Phaladeepika exact — Sloka 29): If Ketu be in the 4th house, the person concerned will lose his lands, vehicles, mother and happiness. He will leave his native country and dwell in a foreign place and live at the bounty of another.
+
+RULE_KETU_BHAVA5 | కేతు 5వ భావంలో
+English (Phaladeepika exact — Sloka 30): Ketu in the 5th house at a person's birth will cause loss of children, disease in the stomach, and trouble from goblins. The native will become evil-minded and wicked.
+
+RULE_KETU_BHAVA6 | కేతు 6వ భావంలో
+English (Phaladeepika exact — Sloka 30): If Ketu should occupy the 6th house at a birth, the person concerned will be very magnanimous and possess the best qualities. He will attain everlasting fame, firmness and high authority, destroy his enemies and realise his wishes.
+
+RULE_KETU_BHAVA7 | కేతు 7వ భావంలో
+English (Phaladeepika exact — Sloka 31): The person at whose birth Ketu is posited in the 7th house will suffer disrespect, seek the company of bad women, will be afflicted by a disease relating to the bowels and will suffer loss of wife and vital power.
+
+RULE_KETU_BHAVA8 | కేతు 8వ భావంలో
+English (Phaladeepika exact — Sloka 31-32): If Ketu be in the 8th house, the person born will be short-lived, will suffer the separation of his dear friends and engage in quarrels, will meet with injury from a weapon and disappointment in all his undertakings.
+
+RULE_KETU_BHAVA9 | కేతు 9వ భావంలో
+English (Phaladeepika exact — Sloka 32): If Ketu should occupy the 9th house at a person's birth, he will follow a sinful course, will do unrighteous things and be deprived of his father, will be unlucky, indigent and will slander the good.
+
+RULE_KETU_BHAVA10 | కేతు 10వ భావంలో
+English (Phaladeepika exact — Sloka 32): When Ketu occupies the 10th house, the person born will experience obstacles to the performance of good acts, will be impure, and will be engaged in doing vile acts. He will be energetic, bold and widely renowned.
+
+RULE_KETU_BHAVA11 | కేతు 11వ భావంలో
+English (Phaladeepika exact — Sloka 33): If Ketu be posited in the 11th house at a birth, the person concerned will hoard money, will have many good qualities, will enjoy himself well, will command all the facilities for getting good materials and will be successful in obtaining all his requirements.
+
+RULE_KETU_BHAVA12 | కేతు 12వ భావంలో
+English (Phaladeepika exact — Sloka 33): If Ketu occupy the 12th house, the person born will secretly commit sinful acts, spend money on vile things, will destroy wealth, will be of forbidden conduct, and will suffer from eye-diseases.

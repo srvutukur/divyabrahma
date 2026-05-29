@@ -1,0 +1,52 @@
+SOURCE: ఫలదీపిక (Phaladeepika) — మంత్రేశ్వర రచన
+ADHYAYA: XIX — ఏకోనవింశో అధ్యాయః (దశాఫల నిరూపణమ్)
+SLOKAS: 14, 15, 16
+TOPIC: రాహు మహాదశ ఫలములు
+════════════════════════════════════════════════════════════════
+
+SLOKA 14 (Sanskrit):
+కుర్యాద్భిః క్షితిపచోరవిషాగ్నిశస్త్ర-
+భీతిం సుతాతిమతివిభ్రమబంధునాశమ్ ।
+నీచావమాననమతిక్రమతో పఘాదం
+స్థానచ్యుతిం పద్ర్హితం కృతకార్యహానిమ్ ॥౧౪॥
+
+SLOKA 14 (English — Phaladeepika exact):
+During Rahu's Dasa, the person may expect trouble from the sovereign, thieves, poison, fire and weapons, sickness to children, ruffled mind, loss of relations, insult from base people, scandal due to a breach of decorum, ejection or dismissal from an office, wounding of the leg (or kicks) and failure of the business undertaken.
+
+────────────────────────────────────────────────────────────────
+
+SLOKA 15 (Sanskrit):
+విభుతుదే శుభాన్వితే ప్రశస్తభావసంయుతే
+దశా శుభప్రదా తదా మహీపతుల్యభతిదా ।
+అభీఏకార్యసిద్ధయో గృహే మృఖస్థితిర్భవే-
+దచఞలార్థసంచయాః స్థితో ప్రసిద్ధకీర్తయః ॥౧౫॥
+
+SLOKA 15 (English — Phaladeepika exact):
+If Rahu be associated with a benefic and occupy good houses (i.e., houses other than the 6th, the 8th or the 12th), his Dasa period will be benefic and fully auspicious, and will lift (raise) the native to affluence on a par with the king. The native will have all his desires fulfilled and will stay at home enjoying happiness. There will be steady accumulation of wealth and he will become widely renowned.
+
+────────────────────────────────────────────────────────────────
+
+SLOKA 16 (Sanskrit):
+పాథోనమీనాలిగతస్య రాహోర్దశావిపాకే మహితం చ సౌఖ్యమ్ ।
+దేశాధిపత్యం నరవాహనాదిర్దశావసానే సకలస్య నాశః ॥౧౬॥
+
+SLOKA 16 (English — Phaladeepika exact):
+Astrologers say that Rahu in Kanya, Meena or Vrischika, gives to the person concerned, during his Dasa honor and happiness, lordship of lands, carriages and servants. All these, however, are liable to be lost at the conclusion of the Dasa.
+
+════════════════════════════════════════════════════════════════
+NOTE: ఈ file Phaladeepika Adhyaya XIX నుండి exact గా తీసుకోబడింది.
+రాహు మహాదశ విశ్లేషణలో ఈ slokas తప్పనిసరిగా వాడాలి.
+
+════════════════════════════════════════════════════════════════
+BPHS EXTRA RULES — రాహు మహాదశ (BPHS Chapter 47)
+SOURCE: Brihat Parasara Hora Sastra — R. Santhanam translation
+NOTE: పై Phaladeepika rules తో non-overlapping extra rules మాత్రమే.
+════════════════════════════════════════════════════════════════
+
+RULE_RAHU_MD_BPHS_1 | రాహు ఉచ్చం (వృషభం)/స్వరాశి (కుంభం)/మిత్ర రాశిలో ఉంటే — రాహు MD లో విశేష సంపద, వ్యవసాయ ఉత్పత్తులు, వాహన లాభం, నూతన గృహ నిర్మాణం, పుత్రలాభం, మత కార్యాలు, విదేశ ప్రభుత్వ గుర్తింపు. రాహు శుభగ్రహ సంబంధం + 1/4/7/10/11/3వ భావాలలో ఉంటే = ప్రభుత్వ సహాయంతో సంపద, విదేశ లాభం, గృహ సుఖం. | BPHS Ch.47 Sl.34-39
+
+RULE_RAHU_MD_BPHS_2 | రాహు 8వ లేదా 12వ భావంలో ఉంటే — MD లో అన్ని విధాలైన కష్టాలు. పాపగ్రహంతో కలిసి లేదా మారక గ్రహంతో లేదా నీచంలో (వృశ్చికం) ఉంటే = పదవీభ్రంశం, గృహ నాశనం, మానసిక వేదన, భార్యా పుత్ర బాధ. MD మొదట్లో ధననష్టం, మధ్యలో కొంత relief, చివర్లో మళ్ళీ కష్టాలు. | BPHS Ch.47 Sl.40-43
+
+RULE_RAHU_MD_BPHS_3_YOGAKARAKA | రాహు Yogakaraka గ్రహంతో కలిసి లేదా దృష్టి పొందినట్లయితే = MD లో విశేష శుభఫలాలు — రాహు కుండలి బలాన్ని బట్టి full results ఇస్తాడు. | BPHS Ch.47 Note
+
+RULE_RAHU_MD_BPHS_4_DREKKANA | Drekkana timing: రాహు సర్వదా వక్రుడు కాబట్టి — 3వ Drekkana లో ఉంటే = MD మొదట్లో ఫలాలు. 2వ = మధ్యలో. 1వ = చివర్లో (విపరీత క్రమం). | BPHS Ch.47 Sl.3-4

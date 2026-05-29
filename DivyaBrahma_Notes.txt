@@ -1,0 +1,463 @@
+════════════════════════════════════════════════════════════
+    దివ్య బ్రహ్మ ప్రవాహ — DBP System సవివర నోట్స్
+    DB11 Engine + V27 MasterPrompt
+════════════════════════════════════════════════════════════
+
+రాసిన తేదీ  : 26/05/2026
+System పేరు : Divya Brahma Pravaha (దివ్య బ్రహ్మ ప్రవాహ)
+సంక్షిప్తం  : DBP
+ప్రస్తుత version: DB11 Engine + V27 Prompt
+శాస్త్ర ఆధారం:
+  Brihat Jataka (వరాహమిహిర) — Primary
+  BPHS (పరాశర) — Secondary
+  జాతక మార్తాండము — Tertiary
+  సారావళి (కళ్యాణ వర్మ), ఫలదీపిక (మంత్రేశ్వర) — Reference
+
+════════════════════════════════════════════════════════════
+PART-1: ఈ System దేనికోసం Design చేయబడింది?
+════════════════════════════════════════════════════════════
+
+దివ్య బ్రహ్మ ప్రవాహ అంటే:
+──────────────────────────────
+"ప్రవాహ" = Flow — జాతకుడి జీవిత ప్రవాహాన్ని
+             లగ్నేశుడి dispositor chain ద్వారా
+             trace చేసే పద్ధతి.
+
+ఇది ఒక పూర్తి జన్మ జాతక విశ్లేషణ system:
+  ✅ జాతకుడి మొత్తం జీవిత చిత్రం చూపిస్తుంది
+  ✅ దశా/అంతర్దశా timing తో ఫలాలు చెబుతుంది
+  ✅ 10 జీవన domains అన్నీ cover చేస్తుంది
+  ✅ శాస్త్రీయ గ్రంధాల ఆధారంగా మాత్రమే
+
+10 జీవన Domains:
+  1. వృత్తి/వ్యాపారం
+  2. వివాహం/సంబంధాలు
+  3. సంతానం
+  4. ఆర్థిక స్థితి
+  5. ఆరోగ్యం
+  6. ఆయుష్యం
+  7. తల్లి-తండ్రి
+  8. విదేశం
+  9. ఆధ్యాత్మికం
+  10. సాధారణ జీవన సుఖం
+
+ప్రశ్న శాస్త్రంతో తేడా:
+┌──────────────────────┬──────────────────────────────┐
+│ DBP (DB11+V27)       │ PS (PS2+PV2)                 │
+├──────────────────────┼──────────────────────────────┤
+│ జన్మ జాతకం          │ ప్రశ్న జాతకం                  │
+│ జన్మ కాలం వాడతారు  │ ప్రశ్న కాలం వాడతారు           │
+│ మొత్తం జీవిత చిత్రం │ ఒక్క ప్రశ్నకు direct సమాధానం │
+│ దశా system ముఖ్యం   │ దశా వాడరు                    │
+│ అష్టకవర్గ వాడతారు   │ అష్టకవర్గ వాడరు               │
+│ D9/D10 charts        │ D9/D10 లేవు                  │
+│ Token cost అధికం    │ Token cost తక్కువ             │
+└──────────────────────┴──────────────────────────────┘
+
+════════════════════════════════════════════════════════════
+PART-2: శాస్త్ర ఆధారాలు — Versions చరిత్ర
+════════════════════════════════════════════════════════════
+
+DB Engine Evolution:
+──────────────────────
+DB1-DB7  → Basic foundation (ప్రారంభ దశ)
+DB8      → 7 Fixes: Shadbala, Aarohi/Avrohi, Combust timing,
+            Graha Yuddha, Dasha Roga
+DB9      → 8 Additions:
+            మాంది/గులిక, విశేష లగ్నాలు (హోరా/భావ/ఘటి),
+            తాత్కాలిక మైత్రి, పిండాయుర్దాయ,
+            కాల సర్ప యోగం, జైమిని చర కారకాలు,
+            గ్రహ అవస్థ (BPHS Ch.45),
+            గోచర (Transit)
+DB9→DB10 → లఘు స్ఫుటము + భావ స్ఫుటము (జాతక మార్తాండము),
+            Bridge Layer (KB2 + V27 combine)
+DB10→DB11→ 5 Universal fields:
+            rikta_flag_scope, health_risk_flag,
+            bindu_phala, exaltation_aarohi_flag,
+            rahu.delivery_mechanism
+
+V27 Prompt Evolution:
+──────────────────────
+V1-V8    → Basic framework
+V9       → MELOOHA multi-chart (D1+D9+D10), ASTRONIDAN
+V10      → Yoga analysis complete
+V11      → 27-step protocol
+V12      → Mundane (Medini) Jyotisha module
+V22      → DB7 FIX-23/24, RULE-C1/C2/C3 validation
+V27      → Current — DB11 integration, FIX-25/27/29
+
+V27 లో వాడిన శాస్త్రాలు:
+  ┌─────────────────────────┬──────────────────────────┐
+  │ శాస్త్రం                │ ఏమి వాడారు               │
+  ├─────────────────────────┼──────────────────────────┤
+  │ Brihat Jataka           │ గ్రహ కారకత్వాలు,          │
+  │ (వరాహమిహిర)             │ ఆయుష్యం, Aarohi/Avrohi   │
+  ├─────────────────────────┼──────────────────────────┤
+  │ BPHS (పరాశర)            │ Shadbala, భావ ఫలాలు,      │
+  │                         │ గ్రహ అవస్థ (Ch.45),       │
+  │                         │ అష్టకవర్గ (Ch.66)         │
+  ├─────────────────────────┼──────────────────────────┤
+  │ జాతక మార్తాండము         │ అష్టకవర్గ బిందు ఫలాలు    │
+  │                         │ (pages 297-310),          │
+  │                         │ అధిపత్య శుభ/పాప table,   │
+  │                         │ గ్రహ యుద్ధ rules          │
+  ├─────────────────────────┼──────────────────────────┤
+  │ సారావళి (కళ్యాణ వర్మ)  │ రాహు దశ ఫలాలు (Ch.8)    │
+  ├─────────────────────────┼──────────────────────────┤
+  │ ఫలదీపిక (మంత్రేశ్వర)   │ రాహు MD slokas (Ch.28)   │
+  ├─────────────────────────┼──────────────────────────┤
+  │ రాజయోగాధ్యాయము         │ ఆరూఢ లగ్నం, రాజ యోగాలు  │
+  ├─────────────────────────┼──────────────────────────┤
+  │ లఘు స్ఫుటము             │ నాట గణన, సంధి rules      │
+  └─────────────────────────┴──────────────────────────┘
+
+════════════════════════════════════════════════════════════
+PART-3: System Structure — ఏమేం Files?
+════════════════════════════════════════════════════════════
+
+DivyaBrahma/ folder లో:
+
+┌──────────────────────────┬────────────────────────────┐
+│ File                     │ పని                        │
+├──────────────────────────┼────────────────────────────┤
+│ DB11_engine.py           │ Pure calculation engine    │
+│                          │ → JSON output తయారు చేస్తుంది│
+├──────────────────────────┼────────────────────────────┤
+│ V27MasterPrompt.txt      │ AI analysis prompt         │
+│                          │ → JSON + KB2 తీసుకుని     │
+│                          │   analysis చేస్తుంది       │
+├──────────────────────────┼────────────────────────────┤
+│ KB2_[lagna].txt files    │ లగ్నం specific rules       │
+│ (12 files)               │ → ప్రతి లగ్నానికి          │
+│                          │   శాస్త్ర rules            │
+├──────────────────────────┼────────────────────────────┤
+│ DB11_output_*.json       │ ప్రతి జాతకానికి output     │
+│                          │ → AI కి ఇవ్వాల్సిన data   │
+└──────────────────────────┴────────────────────────────┘
+
+ముఖ్యమైన తేడా — PS2 తో పోల్చిక:
+  PS2 → KB2 files లేవు (token saving)
+  DB11 → KB2 files తప్పనిసరి (depth కోసం)
+
+════════════════════════════════════════════════════════════
+PART-4: DB11 Engine — ఇది ఎలా పని చేస్తుంది?
+════════════════════════════════════════════════════════════
+
+DB11 లోపల ఏమి calculate అవుతుంది:
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION-1: Basic Calculations
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  → 9 గ్రహాల sidereal positions (Lahiri Ayanamsa)
+  → లగ్నం, నక్షత్రం, పాదం
+  → భావ చక్రం (D1)
+  → నవాంశ (D9), దశాంశ (D10) charts
+  → ఆరూఢ లగ్నం
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION-2: Strength Calculations
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  → షడ్బల (6 రకాల బలం — BPHS Ch.27):
+     Sthana bala (స్థాన బలం)
+     Dig bala (దిగ్బలం)
+     Kala bala (కాల బలం)
+     Chesta bala (చేష్టా బలం)
+     Naisargika bala (నైసర్గిక బలం)
+     Drik bala (దృగ్బలం)
+  → Aarohi/Avrohi నిర్ణయం
+  → Combust severity (Varahamihira method)
+  → గ్రహ అవస్థ (BPHS Ch.45 — బాల/కుమార/యువ/వృద్ధ/మృత)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION-3: Special Calculations
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  → పిండాయుర్దాయ (Brihat Jataka Ch.7)
+  → మాంది/గులిక longitude (BPHS Ch.13-14)
+  → విశేష లగ్నాలు (హోరా/భావ/ఘటి — BPHS Ch.25)
+  → కాల సర్ప యోగం detection
+  → జైమిని చర కారకాలు (Atmakaraka etc)
+  → పంచధా మైత్రి + తాత్కాలిక మైత్రి
+  → అష్టకవర్గ బిందువులు (all 7 vargas)
+  → లఘు స్ఫుటము / భావ స్ఫుటము
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION-4: Yoga Detection
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  → గజకేసరి యోగం
+  → పంచ మహాపురుష యోగాలు
+  → అధి యోగం
+  → భాగ్య-రాజ్య అధిపతి యోగం
+  → ఆరూఢ రాజ యోగం
+  → పంచ గ్రహ మాలిక యోగం
+  → విపరీత రాజ యోగం (Sarala/Vimala/Harsha)
+  → కేమదుర్మ / సుపఫా / అనఫా
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION-5: Dasha Calculations
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  → వింశోత్తరి దశ (120 సంవత్సరాల cycle)
+  → మహాదశ → అంతర్దశ → ప్రత్యంతరదశ
+  → ప్రతి దశకు tribandhu నిర్ణయం:
+     PRAVAHA (శుభం), MISRA (మిశ్రమం),
+     VIGHNA (అశుభం), YAMALA (ప్రత్యేకం)
+  → dasha_roga flag
+  → rikta flag (health/timing only)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SECTION-6: Current + Gochara
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  → ప్రస్తుత గోచర స్థానాలు
+  → అష్టకవర్గ బిందు ఫలాలు (transit)
+  → health_risk_flag
+
+Output:
+  DB11_output_[name].json → అన్ని calculations తో
+
+════════════════════════════════════════════════════════════
+PART-5: V27 MasterPrompt — ఇది ఎలా పని చేస్తుంది?
+════════════════════════════════════════════════════════════
+
+V27 prompt AI కి complete instructions ఇస్తుంది.
+
+Core Philosophy — PRAVAHA:
+  లగ్నేశుడు → dispositor → dispositor... chain follow చేయడం
+  → Master Loop కనుగొనడం (cyclic/convergence/terminal)
+  → ఆ loop ద్వారా జీవిత core strength/weakness అర్థం చేసుకోవడం
+
+Source Priority:
+  Brihat Jataka > BPHS > జాతక మార్తాండము
+  (Shadbala మాత్రమే BPHS)
+
+6 STAGEs లో Analysis:
+
+STAGE-0: జాతక నిర్ధారణ (15+ steps)
+  STEP-0.0  → FORCED ECHO (అన్ని data confirm)
+  STEP-0.1  → ఏ domain కావాలో అడుగుతుంది
+  STEP-0.2  → గ్రహ కారకత్వాలు (Brihat Jataka Ch.2)
+  STEP-0.2B → KB2 graha_dwadasha_rashi_phala
+  STEP-0.4B → KB2 dwadasha_bhava_vicharana
+  STEP-0.5  → సారాంశం
+  STEP-0.6  → D1+D9+D10 cross-check
+  STEP-0.7  → Mutual Reception
+  STEP-0.8  → Atmakaraka
+  STEP-0.9  → గ్రహ యుద్ధ తనిఖీ
+  STEP-0.10 → పంచాంగం
+
+STAGE-1: జన్మమూలక నిర్మాణ విశ్లేషణ
+  STEP-1  → జన్మమూలక సంస్థితి + ఆయుష్యం
+  STEP-2  → లగ్న విస్తారిత నిర్ణయం
+  STEP-3A → గ్రహ గతిశీలత (Aarohi/Avrohi)
+  STEP-3B → షడ్బల గణన (BPHS Ch.27)
+  STEP-3C → గ్రహ ఖచ్చితత్వ నిర్ధారణ
+
+STAGE-2: గ్రహ శక్తి ఇంజన్
+  STEP-4  → ఆయుష్య గణన (పిండాయుర్దాయ)
+  STEP-5  → జీవన వర్ణన
+  STEP-6  → గోచర + అష్టకవర్గ
+
+STAGE-3: PRAVAHA Core Engine
+  STEP-7  → Dispositor chain + Loop detection
+  STEP-8  → Triple Convergence
+  STEP-9  → Convergence Gateway + Aspects
+  STEP-10 → వివాహ/సంబంధ విశ్లేషణ
+  STEP-11 → సంతాన విశ్లేషణ
+  STEP-11E→ యోగ విశ్లేషణ (గజకేసరి, విపరీత రాజ...)
+
+STAGE-4: జీవన Domain Engines
+  STEP-12 → వృత్తి/వ్యాపారం
+  STEP-13 → ఆర్థిక విశ్లేషణ
+  STEP-14 → వ్యాపార channel
+  STEP-15 → ఆరోగ్య విశ్లేషణ
+  STEP-16 → ఆయుష్య విశ్లేషణ
+  STEP-17 → ఆర్థిక bindu phala (R-4 EXTENSION)
+  STEP-17B→ తల్లి-తండ్రి విశ్లేషణ
+  STEP-17C→ విదేశ విశ్లేషణ
+
+STAGE-5: Timing Engine
+  STEP-18 → MD/AD/Pratyantar timing
+  STEP-19 → Yoga timing windows
+  STEP-20 → Peak periods నిర్ణయం
+
+STAGE-6: పరిష్కారాలు (Remedies)
+  STEP-21 → Wearable remedies మాత్రమే
+            (mantra/gemstone/river వాడరు)
+
+V27 లో 30+ Core Rules (R-1 నుండి R-12+):
+  R-1:  అధిపతి quality > స్థాన phala
+  R-2:  Combust severity
+  R-3:  Rikta flag = health only
+  R-4:  Bindu phala కారకత్వానికి మాత్రమే
+  R-5:  ఆర్థిక ఫలం = bindu తో verify
+  R-12: రాహు delivery = unexpected network
+
+════════════════════════════════════════════════════════════
+PART-6: KB2 Files — ఇవి ఎందుకు?
+════════════════════════════════════════════════════════════
+
+KB2 = Knowledge Base 2 — లగ్నం specific rules
+
+12 లగ్నాలకు 12 KB2 files:
+  KB2_Mesha.txt    (మేషం లగ్నం)
+  KB2_Vrishabha.txt(వృషభం లగ్నం)
+  ... మొదలైనవి
+
+ప్రతి KB2 లో ఉండేవి:
+  graha_dwadasha_rashi_phala
+    → ప్రతి గ్రహం 12 రాశులలో ఫలాలు
+    → శాస్త్ర గ్రంధాల ప్రకారం exact rules
+
+  dwadasha_bhava_vicharana
+    → 12 భావాల specific rules (ఆ లగ్నానికి)
+    → RULE_B1_1 నుండి RULE_B12_N వరకు
+
+  mahadasha_phalamulu
+    → ప్రతి మహాదశ ఫలాలు (ఆ లగ్నానికి)
+    → Phaladeepika slokas reference
+
+  graha_rashi_vibhajana
+    → RULE_AVASTHA_1 to 11
+    → కుజుని అవస్థలు, శని అవస్థలు etc
+
+Token cost గురించి:
+  KB2 files లేకుండా → token తక్కువ కానీ depth తక్కువ
+  KB2 files తో → token అధికం కానీ accurate
+
+════════════════════════════════════════════════════════════
+PART-7: వాడే విధానం — Step by Step
+════════════════════════════════════════════════════════════
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP-A: DB11 Engine Run చేయడం
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Termux లో:
+  cd ~/storage/shared/DivyaBrahma
+  python DB11_engine.py
+
+అడుగుతుంది — ఇవ్వాలి:
+  పేరు         : Srinivas
+  జన్మ తేదీ    : 25/11/1966     (DD/MM/YYYY)
+  జన్మ సమయం   : 06:19          (HH:MM, 24hr)
+  జన్మ స్థలం   : Khammam       (city పేరు)
+
+Output:
+  DB11_output_Srinivas.json → same folder లో
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STEP-B: AI Analysis (V27 MasterPrompt)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+కొత్త Claude conversation open చేయండి
+
+Upload చేయాల్సిన files:
+  File-1: V27MasterPrompt.txt          (తప్పనిసరి)
+  File-2: DB11_output_Srinivas.json    (తప్పనిసరి)
+  File-3: KB2_[లగ్నం].txt             (తప్పనిసరి)
+           ఉదా: KB2_Vrischika.txt (వృశ్చిక లగ్నం కోసం)
+
+తర్వాత మీరు అడగాల్సింది:
+  "జాతక విశ్లేషణ చేయండి"
+
+AI చేసేది:
+  1. STEP-0.0: FORCED ECHO — అన్ని data confirm
+  2. మీరు "సరిగ్గా ఉంది" అంటే
+  3. STEP-0.1: ఏ domain కావాలో అడుగుతుంది
+  4. మీరు domain చెప్పాక full analysis
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ప్రతి జాతకానికి ఒక్కసారే:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+  1. DB11 run చేయి → JSON తయారవుతుంది
+  2. V27 + JSON + KB2 upload చేయి
+  3. Analysis తీసుకో
+
+Setup (ఒక్కసారే):
+  pip install ephem pyswisseph
+
+════════════════════════════════════════════════════════════
+PART-8: V27 లో Special Features
+════════════════════════════════════════════════════════════
+
+PRAVAHA Method (unique):
+  లగ్నేశుని dispositor chain follow చేయడం
+  → A→B→C→A = Master Loop (cyclic)
+  → A→B→C→C = Convergence
+  → A→B→C→D = Terminal
+  ఈ pattern జాతకుని జీవిత core strength చెబుతుంది
+
+Tribandhu System:
+  మహాదశ + అంతర్దశ + ప్రత్యంతరదశ కలిపి:
+  PRAVAHA → శుభ (3 layers శుభం)
+  MISRA   → మిశ్రమ (కొన్ని శుభం, కొన్ని అశుభం)
+  VIGHNA  → అశుభ (3 layers అశుభం)
+  YAMALA  → ప్రత్యేక (rare combination)
+
+R-4 EXTENSION (Step-17 BINDU rule):
+  అష్టకవర్గ bindu చూసేముందు 3 checks:
+  CHECK-1: ఆ గ్రహం ఆర్థిక కారకుడా?
+  CHECK-2: BPHS Ch.45 అవస్థ + జాతక మార్తాండము modifier
+  CHECK-3: Context label సరిగ్గా చెప్పాలి
+
+Remedy Philosophy:
+  Wearable items మాత్రమే → single practical solution
+  ❌ mantra upadesh వాడరు
+  ❌ gemstones సూచించరు
+  ❌ river-based remedies వాడరు
+
+════════════════════════════════════════════════════════════
+PART-9: Folder Structure
+════════════════════════════════════════════════════════════
+
+Internal Storage/
+└── DivyaBrahma/
+    ├── DB11_engine.py          ← calculation engine
+    ├── V27MasterPrompt.txt     ← AI prompt
+    ├── KB2_Mesha.txt           ← మేష లగ్న rules
+    ├── KB2_Vrishabha.txt       ← వృషభ లగ్న rules
+    ├── KB2_Mithuna.txt         ← మిథున లగ్న rules
+    ├── KB2_Karkataka.txt       ← కర్కాటక లగ్న rules
+    ├── KB2_Simha.txt           ← సింహ లగ్న rules
+    ├── KB2_Kanya.txt           ← కన్య లగ్న rules
+    ├── KB2_Tula.txt            ← తుల లగ్న rules
+    ├── KB2_Vrischika.txt       ← వృశ్చిక లగ్న rules
+    ├── KB2_Dhanus.txt          ← ధనుస్సు లగ్న rules
+    ├── KB2_Makara.txt          ← మకర లగ్న rules
+    ├── KB2_Kumbha.txt          ← కుంభ లగ్న rules
+    ├── KB2_Meena.txt           ← మీన లగ్న rules
+    └── DB11_output_*.json      ← ప్రతి జాతకం output
+
+════════════════════════════════════════════════════════════
+PART-10: Quick Reference Card
+════════════════════════════════════════════════════════════
+
+జాతక విశ్లేషణ కోసం:
+  ① Termux open చేయి
+  ② cd ~/storage/shared/DivyaBrahma
+  ③ python DB11_engine.py
+  ④ పేరు/తేదీ/సమయం/స్థలం type చేయి
+  ⑤ JSON తయారవుతుంది
+  ⑥ Claude లో V27 + JSON + KB2 upload చేయి
+  ⑦ "జాతక విశ్లేషణ చేయండి" అను
+  ⑧ ECHO confirm చేయి
+  ⑨ Domain చెప్పు (వృత్తి/వివాహం/ఆర్థికం...)
+  ⑩ Analysis చదువు
+
+Source Priority గుర్తుంచుకో:
+  Brihat Jataka > BPHS > జాతక మార్తాండము
+  (Shadbala మాత్రమే BPHS)
+
+⚠️ ముఖ్య నియమాలు:
+  - "నిశ్చయం" అనకూడదు — "సంభావ్యత" మాత్రమే
+  - Scores/percentages V27 లో వాడరు
+  - Classical source లేని logic వాడరు
+  - ECHO confirm లేకుండా analysis చేయరు
+  - KB2 file తప్పనిసరి upload చేయాలి
+
+DBP vs PS తెలుసుకో:
+  DBP = జన్మ జాతకం → జీవిత సమగ్ర చిత్రం
+  PS  = ప్రశ్న జాతకం → ఒక్క ప్రశ్నకు సమాధానం
+
+════════════════════════════════════════════════════════════
+    దివ్య బ్రహ్మ ప్రవాహ — Notes End
+    Source: Brihat Jataka > BPHS > జాతక మార్తాండము
+════════════════════════════════════════════════════════════

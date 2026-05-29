@@ -1,0 +1,40 @@
+SOURCE: ఫలదీపిక (Phaladeepika) — మంత్రేశ్వర రచన
+ADHYAYA: VIII — అష్టమో అధ్యాయః
+TOPIC: శుక్రుడు 12 భావాలలో ఫలాలు (Slokas 17-19)
+════════════════════════════════════════════════════════════════
+
+RULE_SHUKRA_BHAVA1 | శుక్రుడు 1వ భావంలో
+English (Phaladeepika exact — Sloka 17): If Venus should occupy the Lagna at a person's birth, he will have a healthy and beautiful body; he will be happy and endowed with long life.
+
+RULE_SHUKRA_BHAVA2 | శుక్రుడు 2వ భావంలో
+English (Phaladeepika exact — Sloka 17): When Venus occupies the 2nd house, the person born will become a poet and endowed with riches of various kinds.
+
+RULE_SHUKRA_BHAVA3 | శుక్రుడు 3వ భావంలో
+English (Phaladeepika exact — Sloka 17): Venus in the 3rd house at birth makes the native wifeless, unhappy, poor, miserly and un-popular.
+
+RULE_SHUKRA_BHAVA4 | శుక్రుడు 4వ భావంలో
+English (Phaladeepika exact — Sloka 17): If Venus should be in the 4th house at a birth, the native will have good vehicles, good house, jewels, clothes, scents, etc.
+
+RULE_SHUKRA_BHAVA5 | శుక్రుడు 5వ భావంలో
+English (Phaladeepika exact — Sloka 18): If Venus be in the 5th house at a birth, the person concerned will be the owner of immense wealth, will protect others, will be very wise and blessed with children.
+
+RULE_SHUKRA_BHAVA6 | శుక్రుడు 6వ భావంలో
+English (Phaladeepika exact — Sloka 18): When Venus occupies the 6th house, the person born will have no enemies, no riches, will be corrupted by young females and affected by grief.
+
+RULE_SHUKRA_BHAVA7 | శుక్రుడు 7వ భావంలో
+English (Phaladeepika exact — Sloka 18): If Venus should be posited in the 7th house at a birth, the person concerned will have a good wife but will have intrigues with bad women. He will lose a wife and will be wealthy.
+
+RULE_SHUKRA_BHAVA8 | శుక్రుడు 8వ భావంలో
+English (Phaladeepika exact — Sloka 18): Venus in the 8th house makes the native long-lived, rich, and a ruler of the earth.
+
+RULE_SHUKRA_BHAVA9 | శుక్రుడు 9వ భావంలో
+English (Phaladeepika exact — Sloka 19): If Venus occupy the 9th house at a birth, the person concerned will be blessed with a wife, friends and children, and will become prosperous through royal favor.
+
+RULE_SHUKRA_BHAVA10 | శుక్రుడు 10వ భావంలో
+English (Phaladeepika exact — Sloka 19): If Venus should be in the 10th house, the person born will become widely renowned, will have friends, and will be a lord happily employed.
+
+RULE_SHUKRA_BHAVA11 | శుక్రుడు 11వ భావంలో
+English (Phaladeepika exact — Sloka 19): Venus in the 11th house makes the person born rich, fond of the company of other females and endowed with many comforts.
+
+RULE_SHUKRA_BHAVA12 | శుక్రుడు 12వ భావంలో
+English (Phaladeepika exact — Sloka 19): When Venus occupies the 12th house, the person born will have sexual enjoyment, wealth and splendour.

@@ -1,0 +1,40 @@
+SOURCE: ఫలదీపిక (Phaladeepika) — మంత్రేశ్వర రచన
+ADHYAYA: VIII — అష్టమో అధ్యాయః
+TOPIC: గురువు 12 భావాలలో ఫలాలు (Slokas 14-16)
+════════════════════════════════════════════════════════════════
+
+RULE_GURU_BHAVA1 | గురువు 1వ భావంలో
+English (Phaladeepika exact — Sloka 14): If at a birth Jupiter should be posited in the Lagna, the person concerned will be handsome, fortunate, long-lived, fearless, and blessed with children.
+
+RULE_GURU_BHAVA2 | గురువు 2వ భావంలో
+English (Phaladeepika exact — Sloka 14): If Jupiter occupy the 2nd house, the person born will be eloquent, and a good connoisseur in food. He will have a lovely face, will be wealthy and learned.
+
+RULE_GURU_BHAVA3 | గురువు 3వ భావంలో
+English (Phaladeepika exact — Sloka 14): If Jupiter be in the 3rd house at a birth, the person concerned will be treated with disrespect, will be miserly, will have a renowned brother, will commit sins, and will be wickedly-disposed.
+
+RULE_GURU_BHAVA4 | గురువు 4వ భావంలో
+English (Phaladeepika exact — Sloka 14): When Jupiter occupies the 4th house, the person born will live with his mother, friends, attendants, sons, wife, corn, etc. and be happy.
+
+RULE_GURU_BHAVA5 | గురువు 5వ భావంలో
+English (Phaladeepika exact — Sloka 15): Jupiter in the 5th house at a birth makes the native suffer distress through sons. The person will be intelligent and will be a king's adviser.
+
+RULE_GURU_BHAVA6 | గురువు 6వ భావంలో
+English (Phaladeepika exact — Sloka 15): If Jupiter should occupy the 6th house at a birth, the person concerned will be very inactive, suffer disrespect, destroy his enemies, and clever in charms and exorcising.
+
+RULE_GURU_BHAVA7 | గురువు 7వ భావంలో
+English (Phaladeepika exact — Sloka 15): If Jupiter be in the 7th house, the person born will possess a good wife and sons. He will be very amiable, and more munificent than his father.
+
+RULE_GURU_BHAVA8 | గురువు 8వ భావంలో
+English (Phaladeepika exact — Sloka 15): If Jupiter be posited in the 8th house, the person born will be poor and earn his livelihood as a menial; he will be sinful but long-lived.
+
+RULE_GURU_BHAVA9 | గురువు 9వ భావంలో
+English (Phaladeepika exact — Sloka 16): If Jupiter occupy the 9th house at a person's birth, he will become a famous minister, will be endowed with wealth and children and will be anxious to do virtuous acts.
+
+RULE_GURU_BHAVA10 | గురువు 10వ భావంలో
+English (Phaladeepika exact — Sloka 16): If Jupiter should be in the 10th house, the person born will follow the right course of conduct, will be renowned for his virtues, will become very rich and a friend of the king.
+
+RULE_GURU_BHAVA11 | గురువు 11వ భావంలో
+English (Phaladeepika exact — Sloka 16): When Jupiter is posited in the 11th house, the person born will be wealthy, fearless, will have a few children, will be long-lived and will be going in vehicles.
+
+RULE_GURU_BHAVA12 | గురువు 12వ భావంలో
+English (Phaladeepika exact — Sloka 16): If Jupiter be in the 12th house, the person concerned will be hated by others, will be foul-mouthed, will have no children, will be sinful, idle and a menial.

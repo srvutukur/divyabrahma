@@ -1,0 +1,40 @@
+SOURCE: ఫలదీపిక (Phaladeepika) — మంత్రేశ్వర రచన
+ADHYAYA: VIII — అష్టమో అధ్యాయః
+TOPIC: శని 12 భావాలలో ఫలాలు (Slokas 20-24)
+════════════════════════════════════════════════════════════════
+
+RULE_SHANI_BHAVA1 | శని 1వ భావంలో
+English (Phaladeepika exact — Sloka 20): If at a birth Saturn occupies his exaltation or own house identical with the Lagna, the person concerned will be on a par with the king, a chief or mayor of a city. If Saturn should be rising in any other Rasi, the person born will be afflicted with sorrow and misery from his very childhood and will suffer from indigence. He will be slovenly and indolent.
+
+RULE_SHANI_BHAVA2 | శని 2వ భావంలో
+English (Phaladeepika exact — Sloka 21): If Saturn should occupy the 2nd house at a person's birth, he will have an ugly face; he will be without wealth, and following evil courses. At a later age he will live in a foreign country endowed with vehicles, wealth and other enjoyments.
+
+RULE_SHANI_BHAVA3 | శని 3వ భావంలో
+English (Phaladeepika exact — Sloka 21): When Saturn is posited in the 3rd house at a birth, the person concerned will be very intelligent, liberal in gifts and happy with his wife. He will however be inactive and overcome with sorrow.
+
+RULE_SHANI_BHAVA4 | శని 4వ భావంలో
+English (Phaladeepika exact — Sloka 22): If at a birth Saturn should occupy the 4th house, the person concerned will be unhappy, houseless, without vehicles, deprived of his mother and sickly during his early years.
+
+RULE_SHANI_BHAVA5 | శని 5వ భావంలో
+English (Phaladeepika exact — Sloka 22): If Saturn should be posited in the 5th house, the person born will be roaming about, will have lost his reason, will be bereft of children, wealth and happiness, will be perfidious and evil-minded.
+
+RULE_SHANI_BHAVA6 | శని 6వ భావంలో
+English (Phaladeepika exact — Sloka 22): When Saturn occupies the 6th house, the person born will be a voracious eater, will be wealthy, subdued by his enemies, will be stubborn and possessed of self-respect.
+
+RULE_SHANI_BHAVA7 | శని 7వ భావంలో
+English (Phaladeepika exact — Sloka 22): Saturn in the 7th house will cause the native to be wedded to a bad wife, to be poor, roaming and be distressed.
+
+RULE_SHANI_BHAVA8 | శని 8వ భావంలో
+English (Phaladeepika exact — Sloka 23): The person at whose birth Saturn is in the 8th house will be unclean and without wealth. He will suffer from piles, will be cruel-minded, will be pinched with hunger and will be despised by his friends.
+
+RULE_SHANI_BHAVA9 | శని 9వ భావంలో
+English (Phaladeepika exact — Sloka 24): The person at whose birth Saturn is in the 9th house will be bereft of fortune, wealth, children, father and religious merit. He will be wicked.
+
+RULE_SHANI_BHAVA10 | శని 10వ భావంలో
+English (Phaladeepika exact — Sloka 24): If Saturn should occupy the 10th house, the person born will be a king or his minister, will devote himself to agriculture, will be brave, rich and renowned.
+
+RULE_SHANI_BHAVA11 | శని 11వ భావంలో
+English (Phaladeepika exact — Sloka 24): The person who has Saturn in the 11th house in his nativity will have a long span of life, lasting wealth and good income, will be brave, free from disease and moneyed.
+
+RULE_SHANI_BHAVA12 | శని 12వ భావంలో
+English (Phaladeepika exact — Sloka 24): Saturn in the 12th house makes the native impudent, indigent, without children, defective of some limb, stupid and driven out by his enemies.

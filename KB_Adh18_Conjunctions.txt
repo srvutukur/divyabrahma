@@ -1,0 +1,121 @@
+SOURCE: Mantreswara's Phaladeepika — Dr. G.S. Kapoor translation
+ADHYAYA: XVIII — Aspects and Conjunctions of Two Planets
+SLOKAS: 1-17
+FORMAT: RULE_KEY | English exact text
+════════════════════════════════════════════════════════════════
+
+═══ PART 1: GRAHA CONJUNCTION EFFECTS (Slokas 1-5) ═══
+
+RULE_SURYA_CHANDRA_CONJ | If at the birth of a person the Sun be in conjunction with the Moon, he will be skilled in machine and stone work.
+
+RULE_SURYA_KUJA_CONJ | If the Sun be in conjunction with Mars, he will be sinful.
+
+RULE_SURYA_BUDHA_CONJ | If the Sun be associated with Mercury, the native will be talented, intelligent, renowned and happy.
+
+RULE_SURYA_GURU_CONJ | If the Sun be in conjunction with Jupiter the person concerned will be cruel and will intent on helping others.
+
+RULE_SURYA_SHUKRA_CONJ | If the Sun and Venus be together at birth, the native will earn through dancing, singing, by acting in theatre or Cinema or by the use of weapons.
+
+RULE_SURYA_SHANI_CONJ | If the Sun be in conjunction with Saturn, the native will be skillful in the working of metals or in various sorts of pottery.
+
+────────────────────────────────────────────────────────────────
+
+RULE_CHANDRA_KUJA_CONJ | If the Moon be in conjunction with Mars, the person will be a dealer in hammer, ploughs and similar rough instruments, and earthen pots. He will be disobedient to his mother.
+
+RULE_CHANDRA_BUDHA_CONJ | If the Moon be associated with Mercury, the person concerned will be soft spoken, will be clever in interpretation (or clever in financial matters). He will be fortunate and famous.
+
+RULE_CHANDRA_GURU_CONJ | When the Moon be in conjunction with Jupiter, the person concerned will be victorious over enemies and fickle minded. He will be head of his family and very wealthy.
+
+RULE_CHANDRA_SHUKRA_CONJ | If the Moon and Venus be together, the person concerned will specialise in weaving, tailoring and dying of clothes.
+
+RULE_CHANDRA_SHANI_CONJ | If the Moon be in conjunction with Saturn, the person born will be the son of a woman (widow) who remarried.
+
+────────────────────────────────────────────────────────────────
+
+RULE_KUJA_BUDHA_CONJ | If at birth Mars and Mercury be associated with each other, the person concerned will be a dealer in herbs, plants, books, oil and drugs. He will be clever in boxing.
+
+RULE_KUJA_GURU_CONJ | If Mars and Jupiter be together he will be administrator of a city or town, or a king or a rich Brahmin.
+
+RULE_KUJA_SHUKRA_CONJ | If Mars be with Venus, the person born will be owner of court, a wrestler, one who has affairs with other people's wives, gambler, and clever.
+
+RULE_KUJA_SHANI_CONJ | When Mars and Saturn be together the native will be unhappy, condemned by all and does not stick to his word.
+
+────────────────────────────────────────────────────────────────
+
+RULE_BUDHA_GURU_CONJ | When Mercury be in conjunction with Jupiter at birth, the person concerned will be an actor, fond of singing and well versed in dancing.
+
+RULE_BUDHA_SHUKRA_CONJ | When Mercury be associated with Venus, the native will be eloquent in speech, owner of lands and will become head of assembly.
+
+RULE_BUDHA_SHANI_CONJ | If Mercury be conjoined with Saturn, the person will be an expert cheat, and addicted to licentious pleasures.
+
+────────────────────────────────────────────────────────────────
+
+RULE_GURU_SHUKRA_CONJ | If Jupiter be in conjunction with Venus the person born will be learned, will possess wealth and wife and will be equipped with noble qualities.
+
+RULE_GURU_SHANI_CONJ | If Jupiter be associated with Saturn at birth, the person concerned will be a barber, a potter or a cook.
+
+────────────────────────────────────────────────────────────────
+
+RULE_SHUKRA_SHANI_CONJ | If Venus and Saturn be together, the native will be short sighted. Such a person earns wealth and becomes prosperous through a young woman. He will be well versed in painting and writing.
+
+────────────────────────────────────────────────────────────────
+
+RULE_MULTI_PLANET_CONJ | If more than two planets get into conjunction in a house, the effects should be declared by taking into account the effects described for the various pairs of planets constituting the Yoga.
+
+════════════════════════════════════════════════════════════════
+
+═══ PART 2: MOON IN 12 RASHIS — ASPECT EFFECTS (Slokas 6-11) ═══
+Format: Moon rashi → aspected by Sun, Mars, Mercury, Jupiter, Venus, Saturn respectively
+
+RULE_CHANDRA_MESHA_ASPECT | Moon in Aries aspected by: (1)Sun=poor (2)Mars=king (3)Mercury=learned (4)Jupiter=equal to king (5)Venus=? (6)Saturn=thief
+
+RULE_CHANDRA_VRISHABHA_ASPECT | Moon in Taurus aspected by: (1)Sun=servant (2)Mars=poor (3)Mercury=thief (4)Jupiter=revered by all (5)Venus=King (6)Saturn=wealthy
+
+RULE_CHANDRA_MITHUNA_ASPECT | Moon in Gemini aspected by: (1)Sun=poor (2)Mars=dealer in iron instruments (3)Mercury=king (4)Jupiter=learned (5)Venus=courageous (6)Saturn=weaver
+
+RULE_CHANDRA_KARKATAKA_ASPECT | Moon in Cancer aspected by: (1)Sun=eye troubles (2)Mars=warrior (3)Mercury=learned (4)Jupiter=intelligent (5)Venus=king (6)Saturn=earns livelihood in iron articles
+
+RULE_CHANDRA_SIMHA_ASPECT | Moon in Leo aspected by: (1)Sun=king (2)Mars=well versed in astrology (3)Mercury=wealthy (4)Jupiter=king (5)Venus=? (6)Saturn=barber
+
+RULE_CHANDRA_KANYA_ASPECT | Moon in Virgo aspected by: (1)Sun=king (2)Mars=clever (3)Mercury=king (4)Jupiter=commander (5)Venus=land owner (6)Saturn=?
+
+RULE_CHANDRA_TULA_ASPECT | Moon in Libra aspected by: (1)Sun=wicked person (2)Mars=rogue (3)Mercury=king (4)Jupiter=gold smith (5)Venus=business man (6)Saturn=back biter
+
+RULE_CHANDRA_VRISHCHIKA_ASPECT | Moon in Scorpio aspected by: (1)Sun=poor (2)Mars=king (3)Mercury=father or mother of twins (4)Jupiter=cloth dealer (5)Venus=one with deformed limbs (6)Saturn=?
+
+RULE_CHANDRA_DHANU_ASPECT | Moon in Sagittarius aspected by: (1)Sun=arrogant and proud (2)Mars=cheat (3)Mercury=administrator over many persons (4)Jupiter=king or chief of group (5)Venus=supporter of many persons (6)Saturn=stupid
+
+RULE_CHANDRA_MAKARA_ASPECT | Moon in Capricorn aspected by: (1)Sun=poverty stricken (2)Mars=king (3)Mercury=king (4)Jupiter=king (5)Venus=learned or wise person (6)Saturn=wealthy
+
+RULE_CHANDRA_KUMBHA_ASPECT | Moon in Aquarius aspected by: (1)Sun=revered by people (2)Mars=witty (3)Mercury=land owner (4)Jupiter=king (5)Venus=popular amongst prostitutes (6)Saturn=king of kings
+
+RULE_CHANDRA_MEENA_ASPECT | Moon in Pisces aspected by: (1)Sun=wicked person (2)Mars=sinful (3)Mercury=intelligent (4)Jupiter=king (5)Venus=learned person (6)Saturn=one intent on finding fault with others
+
+════════════════════════════════════════════════════════════════
+
+═══ PART 3: MOON IN NAVAMSAS — ASPECT EFFECTS (Slokas 12-15) ═══
+
+RULE_CHANDRA_KUJA_NAVAMSA_ASPECT | Moon in Mars navamsa aspected by: (1)Sun=watchman (2)Mars=fond of killing (3)Mercury=skilled in fighting (4)Jupiter=king (5)Venus=wealthy (6)Saturn=quarrelsome
+
+RULE_CHANDRA_SHUKRA_NAVAMSA_ASPECT | Moon in Venus navamsa aspected by: (1)Sun=stupid (2)Mars=addicted to other people's wives (3)Mercury=talented poet (4)Jupiter=talented composer of poems (5)Venus=engaged in collecting comforts and luxury (6)Saturn=illicit connections with women
+
+RULE_CHANDRA_BUDHA_NAVAMSA_ASPECT | Moon in Mercury navamsa aspected by: (1)Sun=actor (2)Mars=thief (3)Mercury=poet (4)Jupiter=minister (5)Venus=versed in singing (6)Saturn=skilled in arts
+
+RULE_CHANDRA_CHANDRA_NAVAMSA_ASPECT | Moon in own navamsa aspected by: (1)Sun=short statured (2)Mars=greedy (3)Mercury=practises penance (4)Jupiter=occupies high position (5)Venus=works as subordinate to woman (6)Saturn=keeps engaged in work
+
+RULE_CHANDRA_SURYA_NAVAMSA_ASPECT | Moon in Sun navamsa aspected by: (1)Sun=angry (2)Mars=favourite of king (3)Mercury=owner of treasure (4)Jupiter=holder of high position (5)Venus=childless (6)Saturn=violent and cruel
+
+RULE_CHANDRA_GURU_NAVAMSA_ASPECT | Moon in Jupiter navamsa aspected by: (1)Sun=renowned for strength and power (2)Mars=commander (3)Mercury=witty (4)Jupiter=minister (5)Venus=free from lust (6)Saturn=possessing habits of aged persons
+
+RULE_CHANDRA_SHANI_NAVAMSA_ASPECT | Moon in Saturn navamsa aspected by: (1)Sun=limited progeny (2)Mars=unhappy (3)Mercury=arrogant (4)Jupiter=involved in own work (5)Venus=favourite of wicked woman (6)Saturn=angry
+
+════════════════════════════════════════════════════════════════
+
+═══ GENERAL RULES (Slokas 16-17) ═══
+
+RULE_NAVAMSA_DWADASAMSA | The effects declared for Moon in the several signs aspected by the different planets should be applicable in the case of Dwadasamsa also.
+
+RULE_NAVAMSA_QUALIFICATION | The good effects declared above will be full or medium or little according as the Moon occupies a Vargottama position, his own navamsa or the navamsa of another planet. In the case of bad effects it will be the reverse. If the lord of navamsa occupied by the Moon be strong, the effects described for the Moon in several signs aspected by the several planets will be multiplied.
+
+════════════════════════════════════════════════════════════════
+NOTE: ఈ file Phaladeepika Adhyaya XVIII (Dr. G.S. Kapoor translation) నుండి exact గా తీసుకోబడింది.

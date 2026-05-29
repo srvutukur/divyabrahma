@@ -1,0 +1,157 @@
+SOURCE: Mantreswara's Phaladeepika — Dr. G.S. Kapoor translation
+ADHYAYA: Transit Effects (Gocharaphala) — Chapter on Transit
+TOPIC: అన్ని గ్రహాల గోచారం × 12 భావాలు (చంద్ర లగ్నం నుండి)
+FORMAT: RULE_[PLANET]_TRANSIT_BHAVA[n] | English exact
+NOTE: అన్ని bhavas = చంద్ర రాశి నుండి లెక్కించాలి (Janma Rasi నుండి)
+════════════════════════════════════════════════════════════════
+
+═══ సూర్యుడు గోచారం (Sun Transit) ═══
+
+RULE_SURYA_TRANSIT_BHAVA1 | 1st - Wearisome journey, fatigue, diseases.
+RULE_SURYA_TRANSIT_BHAVA2 | 2nd - Loss of wealth, unhappiness, obstinacy and victim of deceit by others.
+RULE_SURYA_TRANSIT_BHAVA3 | 3rd - Acquisition of a new position, gain of wealth, happiness, freedom from diseases and destruction of enemies.
+RULE_SURYA_TRANSIT_BHAVA4 | 4th - Diseases, impediments to sexual enjoyments.
+RULE_SURYA_TRANSIT_BHAVA5 | 5th - Mental anguish, ill health, humiliation in all possible ways.
+RULE_SURYA_TRANSIT_BHAVA6 | 6th - Freedom from diseases, destruction of enemies, removal of sorrows and anxieties.
+RULE_SURYA_TRANSIT_BHAVA7 | 7th - Wearisome journeys, stomach disorders, trouble in the anus and suffering humiliation.
+RULE_SURYA_TRANSIT_BHAVA8 | 8th - Fear, diseases, quarrels, royal displeasure, suffering from excessive heat.
+RULE_SURYA_TRANSIT_BHAVA9 | 9th - Danger, humiliation, separation from close relations and mental depression.
+RULE_SURYA_TRANSIT_BHAVA10 | 10th - Success in a great and important undertaking.
+RULE_SURYA_TRANSIT_BHAVA11 | 11th - New position, honour, wealth and freedom from diseases.
+RULE_SURYA_TRANSIT_BHAVA12 | 12th - Sorrow, loss of wealth, quarrels with friends and fever.
+
+════════════════════════════════════════════════════════════════
+
+═══ చంద్రుడు గోచారం (Moon Transit) ═══
+
+RULE_CHANDRA_TRANSIT_BHAVA1 | 1st - Dawn of fortune.
+RULE_CHANDRA_TRANSIT_BHAVA2 | 2nd - Loss of wealth.
+RULE_CHANDRA_TRANSIT_BHAVA3 | 3rd - Success.
+RULE_CHANDRA_TRANSIT_BHAVA4 | 4th - Fear.
+RULE_CHANDRA_TRANSIT_BHAVA5 | 5th - Sorrow.
+RULE_CHANDRA_TRANSIT_BHAVA6 | 6th - Freedom from diseases.
+RULE_CHANDRA_TRANSIT_BHAVA7 | 7th - Happiness.
+RULE_CHANDRA_TRANSIT_BHAVA8 | 8th - Unhappy and troublesome events.
+RULE_CHANDRA_TRANSIT_BHAVA9 | 9th - Sickness.
+RULE_CHANDRA_TRANSIT_BHAVA10 | 10th - Fulfilment of ambitions.
+RULE_CHANDRA_TRANSIT_BHAVA11 | 11th - Joy.
+RULE_CHANDRA_TRANSIT_BHAVA12 | 12th - Expenditure.
+
+════════════════════════════════════════════════════════════════
+
+═══ కుజుడు గోచారం (Mars Transit) ═══
+
+RULE_KUJA_TRANSIT_BHAVA1 | 1st - Mental Depression, separation from relations and diseases caused by impurity of blood, bile and heat.
+RULE_KUJA_TRANSIT_BHAVA2 | 2nd - Fear, exchange of hot words and loss of wealth.
+RULE_KUJA_TRANSIT_BHAVA3 | 3rd - Success in all undertakings, acquisition of gold ornaments and happiness caused thereby.
+RULE_KUJA_TRANSIT_BHAVA4 | 4th - Loss of position, stomach disorders and sorrow through relations.
+RULE_KUJA_TRANSIT_BHAVA5 | 5th - Fever, unnecessary desires, mental agony through son, quarrel with relations.
+RULE_KUJA_TRANSIT_BHAVA6 | 6th - End of strife and withdrawal of enemies, freedom from diseases, victory, gain of wealth and success in all undertakings.
+RULE_KUJA_TRANSIT_BHAVA7 | 7th - Misunderstanding with wife, eye diseases, stomach-ache and similar disorders.
+RULE_KUJA_TRANSIT_BHAVA8 | 8th - Fever, anaemia, loss of wealth and honour.
+RULE_KUJA_TRANSIT_BHAVA9 | 9th - Humiliation, loss of wealth, difficulty in walking due to weakness and wastage in the several constituent elements of body.
+RULE_KUJA_TRANSIT_BHAVA10 | 10th - Misbehaviour, failure in efforts and exhaustion.
+RULE_KUJA_TRANSIT_BHAVA11 | 11th - Gain of wealth, freedom from diseases and increase in landed property.
+RULE_KUJA_TRANSIT_BHAVA12 | 12th - Loss of wealth, sickness caused by excessive heat.
+
+════════════════════════════════════════════════════════════════
+
+═══ బుధుడు గోచారం (Mercury Transit) ═══
+
+RULE_BUDHA_TRANSIT_BHAVA1 | 1st - Loss of wealth.
+RULE_BUDHA_TRANSIT_BHAVA2 | 2nd - Gain of wealth.
+RULE_BUDHA_TRANSIT_BHAVA3 | 3rd - Fear from enemies.
+RULE_BUDHA_TRANSIT_BHAVA4 | 4th - Accrual of wealth.
+RULE_BUDHA_TRANSIT_BHAVA5 | 5th - Quarrel with wife and children.
+RULE_BUDHA_TRANSIT_BHAVA6 | 6th - Success.
+RULE_BUDHA_TRANSIT_BHAVA7 | 7th - Misunderstandings.
+RULE_BUDHA_TRANSIT_BHAVA8 | 8th - Gain of wealth and birth of children.
+RULE_BUDHA_TRANSIT_BHAVA9 | 9th - Destruction in undertakings.
+RULE_BUDHA_TRANSIT_BHAVA10 | 10th - Happiness all round.
+RULE_BUDHA_TRANSIT_BHAVA11 | 11th - Increase in prosperity.
+RULE_BUDHA_TRANSIT_BHAVA12 | 12th - Fear of humiliation.
+
+════════════════════════════════════════════════════════════════
+
+═══ గురువు గోచారం (Jupiter Transit) ═══
+
+RULE_GURU_TRANSIT_BHAVA1 | 1st - Departure from the native place, heavy expenditure and ill will towards others.
+RULE_GURU_TRANSIT_BHAVA2 | 2nd - Acquisition of wealth, domestic happiness and influence over others.
+RULE_GURU_TRANSIT_BHAVA3 | 3rd - Loss of position, separation from friends, obstacles in business and diseases.
+RULE_GURU_TRANSIT_BHAVA4 | 4th - Sorrow through relations, humiliation and danger from quadrupeds.
+RULE_GURU_TRANSIT_BHAVA5 | 5th - Birth of children, association with noble persons and royal favour.
+RULE_GURU_TRANSIT_BHAVA6 | 6th - Trouble from enemies and cousins and diseases.
+RULE_GURU_TRANSIT_BHAVA7 | 7th - Journey for an auspicious work, happiness with wife and acquisition of children.
+RULE_GURU_TRANSIT_BHAVA8 | 8th - Tiresome journeys resulting in fatigue, unlucky, misery and loss of wealth.
+RULE_GURU_TRANSIT_BHAVA9 | 9th - Prosperity all round.
+RULE_GURU_TRANSIT_BHAVA10 | 10th - Danger to property, position and children.
+RULE_GURU_TRANSIT_BHAVA11 | 11th - Birth of children, gain of new position and honour.
+RULE_GURU_TRANSIT_BHAVA12 | 12th - Grief, fear caused through property.
+
+════════════════════════════════════════════════════════════════
+
+═══ శుక్రుడు గోచారం (Venus Transit) ═══
+
+RULE_SHUKRA_TRANSIT_BHAVA1 | 1st - Conferment of all kinds of enjoyments.
+RULE_SHUKRA_TRANSIT_BHAVA2 | 2nd - Gain of wealth.
+RULE_SHUKRA_TRANSIT_BHAVA3 | 3rd - Prosperity.
+RULE_SHUKRA_TRANSIT_BHAVA4 | 4th - Increase in happiness and friends.
+RULE_SHUKRA_TRANSIT_BHAVA5 | 5th - Birth of children.
+RULE_SHUKRA_TRANSIT_BHAVA6 | 6th - Accidents.
+RULE_SHUKRA_TRANSIT_BHAVA7 | 7th - Trouble to wife.
+RULE_SHUKRA_TRANSIT_BHAVA8 | 8th - Acquisition of wealth.
+RULE_SHUKRA_TRANSIT_BHAVA9 | 9th - Happiness.
+RULE_SHUKRA_TRANSIT_BHAVA10 | 10th - Quarrels.
+RULE_SHUKRA_TRANSIT_BHAVA11 | 11th - Safety.
+RULE_SHUKRA_TRANSIT_BHAVA12 | 12th - Acquisition of wealth.
+
+════════════════════════════════════════════════════════════════
+
+═══ శని గోచారం (Saturn Transit) ═══
+⚠️ NOTE: శని గోచారం = Mahadasha తో కలిపి చూడాలి. "దశా ఫలం గోచారేణ సంశోధ్యమ్" — Dasha PRIMARY (70%), Transit SECONDARY (30%).
+
+RULE_SHANI_TRANSIT_BHAVA1 | 1st - Diseases and performance of funeral rites. (ఏలినాటి శని — సర్వకష్టాలు)
+RULE_SHANI_TRANSIT_BHAVA2 | 2nd - Loss of wealth and children.
+RULE_SHANI_TRANSIT_BHAVA3 | 3rd - Gain of position or employment and acquisition of wealth and servants. (శుభం)
+RULE_SHANI_TRANSIT_BHAVA4 | 4th - Loss of wife, relations and wealth.
+RULE_SHANI_TRANSIT_BHAVA5 | 5th - Diminishing of wealth, loss of children and confusion of mind.
+RULE_SHANI_TRANSIT_BHAVA6 | 6th - Happiness all round. (శుభం)
+RULE_SHANI_TRANSIT_BHAVA7 | 7th - Suffering to wife and danger during journeys.
+RULE_SHANI_TRANSIT_BHAVA8 | 8th - Loss of children, cattle, friends and wealth, and suffering from diseases.
+RULE_SHANI_TRANSIT_BHAVA9 | 9th - Loss of wealth, obstacles to the performance of good deeds, death of an elderly relative equal to father and perpetual sorrow.
+RULE_SHANI_TRANSIT_BHAVA10 | 10th - Indulgence in sinful actions, loss of honour and suffering from diseases.
+RULE_SHANI_TRANSIT_BHAVA11 | 11th - All kinds of happiness, gain of wealth and receipt of unique honour. (శుభం)
+RULE_SHANI_TRANSIT_BHAVA12 | 12th - Engagement in a business bringing no gains, loss of wealth through enemies, and sickness to wife and son.
+
+════════════════════════════════════════════════════════════════
+
+═══ రాహు గోచారం (Rahu Transit) ═══
+
+RULE_RAHU_TRANSIT_BHAVA1 | 1st - Sickness or death.
+RULE_RAHU_TRANSIT_BHAVA2 | 2nd - Loss of wealth.
+RULE_RAHU_TRANSIT_BHAVA3 | 3rd - Happiness.
+RULE_RAHU_TRANSIT_BHAVA4 | 4th - Sorrow.
+RULE_RAHU_TRANSIT_BHAVA5 | 5th - Financial loss.
+RULE_RAHU_TRANSIT_BHAVA6 | 6th - Happiness.
+RULE_RAHU_TRANSIT_BHAVA7 | 7th - Losses of wealth.
+RULE_RAHU_TRANSIT_BHAVA8 | 8th - Danger to life.
+RULE_RAHU_TRANSIT_BHAVA9 | 9th - Losses of wealth.
+RULE_RAHU_TRANSIT_BHAVA10 | 10th - Gains of wealth.
+RULE_RAHU_TRANSIT_BHAVA11 | 11th - Happiness.
+RULE_RAHU_TRANSIT_BHAVA12 | 12th - Expenditure.
+
+════════════════════════════════════════════════════════════════
+
+═══ GENERAL TRANSIT RULES ═══
+
+RULE_TRANSIT_VEDHA_SHANI | Saturn auspicious in transit: 3rd, 6th, 11th houses from Moon. Corresponding Vedha houses (నిర్వీర్యం): 12th, 9th, 5th respectively. If Sun transits Vedha house simultaneously — Vedha cancelled.
+
+RULE_TRANSIT_GENERAL_1 | If a planet yielding adverse effects is aspected by a benefic, his evil effects are cancelled.
+RULE_TRANSIT_GENERAL_2 | A planet loses his capability to do good if he is aspected by an inimical planet.
+RULE_TRANSIT_GENERAL_3 | If Sun, Mars, Jupiter and Saturn transit 1st, 8th or 10th from Moon — danger to life, fall from position, loss of wealth.
+RULE_TRANSIT_GENERAL_4 | Saturn in 1st from natal Moon causes loss of honour and wealth, danger to life.
+RULE_TRANSIT_DASHA_PRIORITY | Classical rule: "దశా ఫలం గోచారేణ సంశోధ్యమ్" — Dasha phala is PRIMARY. Transit modifies but does not replace dasha results. Weight: Dasha 70%, Transit 30%.
+
+════════════════════════════════════════════════════════════════
+NOTE: ఈ file Phaladeepika (Dr. G.S. Kapoor translation) నుండి exact గా తీసుకోబడింది.
+DB11 engine లో current gochar data బట్టి relevant rules auto-pick చేస్తుంది.

@@ -1,0 +1,40 @@
+SOURCE: ఫలదీపిక (Phaladeepika) — మంత్రేశ్వర రచన
+ADHYAYA: VIII — అష్టమో అధ్యాయః
+TOPIC: చంద్రుడు 12 భావాలలో ఫలాలు (Slokas 5-7)
+════════════════════════════════════════════════════════════════
+
+RULE_CHANDRA_BHAVA1 | చంద్రుడు 1వ భావంలో
+English (Phaladeepika exact — Sloka 5): If at a person's birth the Moon be waxing and happens to be in the first house, the person concerned will possess a strong constitution and a long lease of life. He will be free from fear, very powerful and wealthy. But if the Moon be waning, the effects stated above will be quite the reverse.
+
+RULE_CHANDRA_BHAVA2 | చంద్రుడు 2వ భావంలో
+English (Phaladeepika exact — Sloka 5,6): The Moon in the 2nd house at birth makes the person rich, very learned or soft-tongued; he will be a sensualist but defective of some limb.
+
+RULE_CHANDRA_BHAVA3 | చంద్రుడు 3వ భావంలో
+English (Phaladeepika exact — Sloka 6): If the Moon be in the 3rd house, the person born will have brothers, will be lascivious, strong and powerful but very miserly.
+
+RULE_CHANDRA_BHAVA4 | చంద్రుడు 4వ భావంలో
+English (Phaladeepika exact — Sloka 6): If at a birth the Moon be in the 4th house, the person concerned will be happy and indulging in sensual pleasures. He will be liberal in gifts, will have friends, vehicles and become renowned.
+
+RULE_CHANDRA_BHAVA5 | చంద్రుడు 5వ భావంలో
+English (Phaladeepika exact — Sloka 6): If the Moon should occupy the 5th house, the person born will have good sons, will be very intelligent, will walk gently and will become a minister.
+
+RULE_CHANDRA_BHAVA6 | చంద్రుడు 6వ భావంలో
+English (Phaladeepika exact — Sloka 6): If the Moon be in the 6th house, the person born will be short-lived, ignorant, will suffer from stomach-ache, etc., he will also suffer humiliation.
+
+RULE_CHANDRA_BHAVA7 | చంద్రుడు 7వ భావంలో
+English (Phaladeepika exact — Sloka 6): If the Moon should occupy the 7th house, the person born will be agreeable to look at, will be loved by a beautiful damsel, and will be exceedingly lovely.
+
+RULE_CHANDRA_BHAVA8 | చంద్రుడు 8వ భావంలో
+English (Phaladeepika exact — Sloka 7): The person at whose birth the Moon is in the 8th house will suffer from diseases and will be short-lived.
+
+RULE_CHANDRA_BHAVA9 | చంద్రుడు 9వ భావంలో
+English (Phaladeepika exact — Sloka 7): If the Moon should occupy the 9th house at a birth, the person concerned will be prosperous, virtuous and blessed with children. He will be victorious, and all his undertakings will be crowned with success at the beginning itself.
+
+RULE_CHANDRA_BHAVA10 | చంద్రుడు 10వ భావంలో
+English (Phaladeepika exact — Sloka 7): If the Moon should occupy the 10th house at a birth, the person concerned will do good acts and will be helpful to the virtuous.
+
+RULE_CHANDRA_BHAVA11 | చంద్రుడు 11వ భావంలో
+English (Phaladeepika exact — Sloka 7): If the Moon be in the 11th house, the person born will be high-minded, long-lived, and endowed with riches, children and servants.
+
+RULE_CHANDRA_BHAVA12 | చంద్రుడు 12వ భావంలో
+English (Phaladeepika exact — Sloka 7): If the Moon be in the 12th house at a birth, the person concerned will be odious to others; he will suffer misery, will be insulted and will be most indolent.

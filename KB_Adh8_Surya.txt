@@ -1,0 +1,67 @@
+SOURCE: ఫలదీపిక (Phaladeepika) — మంత్రేశ్వర రచన
+ADHYAYA: VIII — అష్టమో అధ్యాయః
+TOPIC: సూర్యుడు 12 భావాలలో ఫలాలు (Slokas 1-4)
+NOTE: Bhava 1-8 = Bangalore Sureshwara translation; Bhava 9-12 = V.Subrahmanya Sastri (our PDF)
+════════════════════════════════════════════════════════════════
+
+RULE_SURYA_BHAVA1 | సూర్యుడు 1వ భావంలో
+English (Phaladeepika — Sloka 1): If the Sun be in the 1st house at birth, the native will have scanty hair. He will be lazy, of hot disposition, impetuous and tall in stature. He will have soiled eyes and a lean and thin body. He will be cruel, impatient and valourous.
+
+────────────────────────────────────────────────────────────────
+
+RULE_SURYA_BHAVA2 | సూర్యుడు 2వ భావంలో
+English (Phaladeepika — Sloka 1): When the Sun is in the 2nd house at birth, the person concerned will be without any learning; he will be shameless and will be stammering.
+
+────────────────────────────────────────────────────────────────
+
+RULE_SURYA_BHAVA3 | సూర్యుడు 3వ భావంలో
+English (Phaladeepika — Sloka 2): Should the Sun occupy the 3rd house, the native will be powerful, valiant, wealthy and generous. He will have inimical relations with his kinsmen.
+
+────────────────────────────────────────────────────────────────
+
+RULE_SURYA_BHAVA4 | సూర్యుడు 4వ భావంలో
+English (Phaladeepika — Sloka 2): If the Sun be in 4th house, the native will be bereft of happiness and comfort, relations, lands, friends and house. He will be in Government service and will squander away his ancestral property.
+
+────────────────────────────────────────────────────────────────
+
+RULE_SURYA_BHAVA5 | సూర్యుడు 5వ భావంలో
+English (Phaladeepika — Sloka 2): When the Sun is in the 5th house from the Lagna, the person concerned will be short tempered and will be deprived of happiness, wealth and children. He will be intelligent and wander in forest regions.
+
+────────────────────────────────────────────────────────────────
+
+RULE_SURYA_BHAVA6 | సూర్యుడు 6వ భావంలో
+English (Phaladeepika — Sloka 3): If the Sun be in the 6th house, the native will become a king. He will earn renown and will be equipped with praiseworthy qualities. He will be wealthy and capable of overcoming his enemies.
+
+────────────────────────────────────────────────────────────────
+
+RULE_SURYA_BHAVA7 | సూర్యుడు 7వ భావంలో
+English (Phaladeepika — Sloka 3): When the Sun is in the 7th at birth, the person concerned will suffer from the wrath of the king. He will have deformed body and will have no wife. He will suffer humiliation from others.
+
+────────────────────────────────────────────────────────────────
+
+RULE_SURYA_BHAVA8 | సూర్యుడు 8వ భావంలో
+English (Phaladeepika — Sloka 3): With the Sun in the 8th house, the person born will be deprived of his wealth and friends. He will be short-lived and suffer from defective eyesight.
+
+────────────────────────────────────────────────────────────────
+
+RULE_SURYA_BHAVA9 | సూర్యుడు 9వ భావంలో
+English (Phaladeepika exact — Sloka 4): If at the time of birth, the Sun should occupy the 9th house, the person concerned will lose his father; he will have children and relations and will revere Gods and Brahmins.
+
+────────────────────────────────────────────────────────────────
+
+RULE_SURYA_BHAVA10 | సూర్యుడు 10వ భావంలో
+English (Phaladeepika exact — Sloka 4): If he occupies the 10th house, the person will have sons, vehicles, laudation, intelligence, wealth, strength and fame. He will be a King.
+
+────────────────────────────────────────────────────────────────
+
+RULE_SURYA_BHAVA11 | సూర్యుడు 11వ భావంలో
+English (Phaladeepika exact — Sloka 4): The Sun in the 11th house will make the person born very wealthy and long-lived. He will be a King and will have no sorrow.
+
+────────────────────────────────────────────────────────────────
+
+RULE_SURYA_BHAVA12 | సూర్యుడు 12వ భావంలో
+English (Phaladeepika exact — Sloka 4): If the Sun be in the 12th house, the person born will hate his father. His eyesight will be defective and he will be without wealth and children.
+
+════════════════════════════════════════════════════════════════
+GENERAL QUALIFICATION (Phaladeepika Adh.VIII Sloka 35):
+Planets produce the full effects of the Bhavas respectively occupied by them when they are exactly posited in the Bhavamsa (middle of the Bhava).

@@ -1,0 +1,39 @@
+SOURCE: ఫలదీపిక (Phaladeepika) — మంత్రేశ్వర రచన
+ADHYAYA: XIX — ఏకోనవింశో అధ్యాయః (దశాఫల నిరూపణమ్)
+SLOKAS: 17, 25
+TOPIC: కేతు మహాదశ ఫలములు
+════════════════════════════════════════════════════════════════
+
+SLOKA 17 (Sanskrit):
+కేతోర్దశాయామరిచోరభపైః పీడా చ శఞ్చక్షతముష్ణరోగః ।
+మిథ్యాపవాదః కులదూషితత్వం బద్భయం ప్రోవణమాత్మదేశాత్ ॥౧౭॥
+
+SLOKA 17 (English — Phaladeepika exact):
+During Ketu's Dasa, the person concerned will have troubles from enemies, thieves, the sovereign, wounds from weapons, wounds, disease due to excessive heat, false calumny, a stigma to his family, danger from fire and absence from his own country.
+
+────────────────────────────────────────────────────────────────
+
+SLOKA 25 (Sanskrit):
+శిఖిజనితదశాయాం శోకమోహోఽఞ్జనాసిః
+ప్రభుజనపరిపీడా విత్తనాశోఽపరాధః ।
+ప్రభవతి తనుభాజాం ప్రోషణం స్వీయదేశా-
+దఞ్చనచరణరోగః స్రేప్సమసన్తాపనం చ ॥౨౫॥
+
+SLOKA 25 (English — Phaladeepika exact):
+During Ketu's Dasa the person will have sorrow and confusion caused by females, trouble from the rich and loss of wealth; he will do improper acts to others. He will suffer banishment from his country. There will be suffering from tooth-ache, leg pain, and phlegmatic troubles.
+
+════════════════════════════════════════════════════════════════
+NOTE: ఈ file Phaladeepika Adhyaya XIX నుండి exact గా తీసుకోబడింది.
+కేతు మహాదశ విశ్లేషణలో ఈ slokas తప్పనిసరిగా వాడాలి.
+
+════════════════════════════════════════════════════════════════
+BPHS EXTRA RULES — కేతు మహాదశ (BPHS Chapter 47)
+SOURCE: Brihat Parasara Hora Sastra — R. Santhanam translation
+NOTE: పై Phaladeepika rules తో non-overlapping extra rules మాత్రమే.
+════════════════════════════════════════════════════════════════
+
+RULE_KETU_MD_BPHS_1 | కేతు కేంద్రం/త్రికోణం/11వ భావంలో + శుభ రాశిలో + ఉచ్చం లేదా స్వరాశిలో ఉంటే — కేతు MD లో ప్రభుత్వంతో సఖ్యత, గ్రామ/దేశ నాయకత్వం, వాహన సుఖం, సంతాన సుఖం, విదేశ లాభం, భార్యా సుఖం, పశు సంపద. 3వ/6వ/11వ భావంలో ఉంటే = రాజ్యలాభం, మిత్ర సఖ్యత, ఏనుగు లాభం. MD మొదట్లో = రాజయోగం. మధ్యలో = నిర్భీతి. చివర్లో = వ్యాధులు, దూర ప్రయాణాలు. | BPHS Ch.47 Sl.72-77
+
+RULE_KETU_MD_BPHS_2 | కేతు 2వ/8వ/12వ భావంలో లేదా పాపగ్రహ దృష్టి ఉంటే — కారాగారం, బంధు నాశనం, గృహ నాశనం, మానసిక వేదన, నీచ సంగతి, వ్యాధులు. | BPHS Ch.47 Sl.72-77 (continuation)
+
+RULE_KETU_MD_BPHS_3_DREKKANA | Drekkana timing: కేతు సర్వదా వక్రుడు కాబట్టి — 3వ Drekkana = MD మొదట్లో. 2వ = మధ్యలో. 1వ = చివర్లో (విపరీత క్రమం). | BPHS Ch.47 Sl.3-4

@@ -1,0 +1,84 @@
+SOURCE: ఫలదీపిక (Phaladeepika) — మంత్రేశ్వర రచన
+ADHYAYA: XX — వింశో అధ్యాయః (దశాపహారయోర్వింశోపఫలాని)
+TOPIC: భావాధిపతుల మహాదశా ఫలాలు (Dasas of the several Bhava lords)
+FORMAT: RULE_BHAVA[n]_MD | Sanskrit + English exact text
+════════════════════════════════════════════════════════════════
+
+RULE_BHAVA1_MD | లగ్నాధిపతి మహాదశ ఫలాలు
+Sanskrit: లగ్నే బలిష్ఠే జగతి ప్రభుత్వం సుఖస్థితిం దేహబలే సుపర్చేః । ఉపర్శుపైర్భ్రుద్యాభిర్బుద్ధిం ప్రాప్నోతి బాలేన్దువ్రదేప జాతః ॥౨॥
+English (Phaladeepika exact — Sloka 2): When the Lagna possesses maximum strength, the native will, during the Dasa of the lord of the Lagna, rise to a place of eminence in the world, will be happily placed in life, will be physically strong, will have a brilliant appearance; and his prosperity will be on the increase as his life progresses just as the Moon's digits in the bright half of a month.
+
+────────────────────────────────────────────────────────────────
+
+RULE_BHAVA2_MD | 2వ భావాధిపతి మహాదశ ఫలాలు
+Sanskrit: పాకేఽర్థనాథస్య కుటుంబసిద్ధిం సత్పుత్రికాన్తిం సుఖభోజనం చ । ప్రాప్నోతి వాగ్జీవికయా ధనాని వక్తా సదృక్కిం సదసి ప్రశస్తామ్ ॥౩॥
+English (Phaladeepika exact — Sloka 3): During the ripening of the Dasa of the lord of the 2nd house, one ought to predict success or acquisition to family, acquisition of good daughters, good meals, earning money by lectures, eloquence in speech and the consequent approbation of the audience in the assembly.
+
+────────────────────────────────────────────────────────────────
+
+RULE_BHAVA3_MD | 3వ భావాధిపతి మహాదశ ఫలాలు
+Sanskrit: శౌర్యే సచీర్యే సహజానుకూల్యం సంతోపవాతాశ్రవణం చ శౌర్యమ్ । సేనాపతిత్వం లభతేఽభిమానం జనాధ్యం సద్గుణభాజనర్థమ్ ॥౪॥
+English (Phaladeepika exact — Sloka 4): During the Dasa of a planet that is strong and owns the 3rd house one ought to expect friendship with and help from brothers, hearing of agreeable news which please the mind, (opportunity for) the exhibition of one's valour, leadership in an army, attainment of some honour, help from people and a praise by others of his various good qualities.
+
+────────────────────────────────────────────────────────────────
+
+RULE_BHAVA4_MD | 4వ భావాధిపతి మహాదశ ఫలాలు
+Sanskrit: బంధూపకారం కృషికర్మసిద్ధిం శ్రీఽసఙ్గమం వాహనలాభమేతి । క్షేత్రం గృహం నూతనమర్థసిద్ధిం స్థానప్రశస్తం చ సుఖేశదాయే ॥౫॥
+English (Phaladeepika exact — Sloka 5): Help to relations, success in agriculture, friendship with females, acquisition of vehicles, new land, new house, wealth, higher status (promotion in one's appointment), all these may be expected during the ripening of the Dasa of the planet owning the 4th house.
+
+────────────────────────────────────────────────────────────────
+
+RULE_BHAVA5_MD | 5వ భావాధిపతి మహాదశ ఫలాలు
+Sanskrit: పుత్రప్రాప్తిం బంధువిలాసం నృపతీనాం సాచివ్యం వా ధీశద్శాయాం బహుమానమ్ । ప్రాజ్యైర్భోజ్యైర్మృప్తిమహాశ్నాతి దదాతి శ్రేయఃకార్యే సజనశస్తం స విద్ధ్యాత్ ॥౬॥
+English (Phaladeepika exact — Sloka 6): During the Dasa of the lord of the 5th house, the native may expect the birth of a son, respect and merriment with relations, or the post of a councillor under kings. He will (command), feed others and enjoy all kinds of (cooked dishes) dainties in plenty. He will accomplish acts meritorious winning the approbation of the virtuous.
+
+────────────────────────────────────────────────────────────────
+
+RULE_BHAVA6_MD | 6వ భావాధిపతి మహాదశ ఫలాలు
+Sanskrit: రిపుఘ్నిరింతి సాహసైర్రీభరస్య వత్సరే । అరోగతాముదారతాముభూష్యతామతిభ్రియమ్ ॥౭॥
+English (Phaladeepika exact — Sloka 7): In the ripening of the Dasa of the lord of the 6th house, the native will be able to subdue all his enemies by doing daring acts. He will enjoy perfect health, will be highly liberal-minded, will be very powerful and will live in all splendour and prosperity.
+
+────────────────────────────────────────────────────────────────
+
+RULE_BHAVA7_MD | 7వ భావాధిపతి మహాదశ ఫలాలు
+Sanskrit: సంపాద్య వస్త్రాభరణాని శయ్యాం ప్రీతో రమణ్యా రమతేఽతిబీర్యైః । కరోతి కళ్యాణమహోత్సవాదీన్ సంతోపయాత్రాం చ మదేశదాయే ॥౮॥
+English (Phaladeepika exact — Sloka 8): During the Dasa-period of the lord of the 7th house, the person born acquires new clothes, jewels, new bed, etc. He will be contented will fully enjoy all pleasures in the company of his beloved. He will be very powerful or virile and perform marriages or similar auspicious festivities in his family and undertake pleasure-trips.
+
+────────────────────────────────────────────────────────────────
+
+RULE_BHAVA8_MD | 8వ భావాధిపతి మహాదశ ఫలాలు
+Sanskrit: ఋణవిమోచనముచ్ఛ్రితిమాత్మనః కలహకుల్యనివృత్తిముపైతి సః । మహిషపశ్వజభృత్యజనాగమం వయసి రణ్ణ్ణ్ వ్రపతేర్బలశాలినః ॥౯॥
+English (Phaladeepika exact — Sloka 9): During the Dasa-period of the lord of the 8th house, if the planet is strong, one ought to expect the complete discharge of debts, his own elevation, cessation of quarrels, and acquisition of buffaloes, cows, goats and servants.
+⚠️ NOTE: ఈ ఫలాలు planet strong అయినప్పుడు మాత్రమే. Weak అయితే opposite ఫలాలు.
+
+────────────────────────────────────────────────────────────────
+
+RULE_BHAVA9_MD | 9వ భావాధిపతి మహాదశ ఫలాలు
+Sanskrit: శ్రీపుత్రపౌత్రైః సహవర్తువర్గైర్భోగ్యం చానుభవత్యఞ్చభమ్ । ధర్యాంసి కార్యాణ్యవనీశపూజాం భాగ్యేశదాయే ద్విజదేవభక్తిమ్ ॥౧౦॥
+English (Phaladeepika exact — Sloka 10): During the Dasa-period of the lord of the 9th house, the person born will, in the company of his wife, sons, grand children and relations, enjoy continuous prosperity, happiness and wealth, will perform meritorious deeds, receive royal favor and an opportunity to show reverence to Brahmins and Gods.
+
+────────────────────────────────────────────────────────────────
+
+RULE_BHAVA10_MD | 10వ భావాధిపతి మహాదశ ఫలాలు
+Sanskrit: యత్కార్యమారభ్ధముపైత్యమునేన తస్యైవ సిద్ధిం సుఖజీవనం చ । కీర్తిం ప్రతిష్ఠాం కుశలప్రవృత్తిం మానోభ్రతిం కర్మపతేర్దశాయామ్ ॥౧౧॥
+English (Phaladeepika exact — Sloka 11): During the Dasa of the lord of the 10th house, the person concerned will bring to a successful termination any business or undertaking originated by him; he will lead a happy life; he will become widely renowned; settle himself on a permanent position; will do cleverly what is good and proper, or he will get happy news and will command great respect.
+
+────────────────────────────────────────────────────────────────
+
+RULE_BHAVA11_MD | 11వ భావాధిపతి మహాదశ ఫలాలు
+Sanskrit: ఐశ్వర్యమధ్యాహృతమిత్యభ్యఙ్గుసమాగమం భృత్యజనాంశ్చ దాసాన్ । సంసారసౌభాగ్యమహోదయం చ లభేత లాభాధిపతేర్దశాయామ్ ॥౧౨॥
+English (Phaladeepika exact — Sloka 12): During the period when the Dasa of the lord of the 11th house is in progress, the person concerned will have an uninterrupted influx of wealth, will meet with his kith and kin, will be served by servants and slaves, and there will be domestic happiness and great prosperity.
+
+────────────────────────────────────────────────────────────────
+
+RULE_BHAVA12_MD | 12వ భావాధిపతి మహాదశ ఫలాలు
+Sanskrit: ద్వ్యఘేశితుర్వైస్యతివ్యయం కరోతి సజ్జనే । అఘౌఘనాశినీం శుభక్రియాం మహీశమాన్యతామ్ ॥౧౩॥
+English (Phaladeepika exact — Sloka 13): When the Dasa of the lord of the 12th house is in progress, there will be much spending of money by the native for the cause of the good. He will do meritorious acts, and thus ward off the several sins already committed. He will also get royal honours.
+
+════════════════════════════════════════════════════════════════
+GENERAL RULE — Sloka 14:
+The effects of the Dasa periods of planets that are retrograde or that occupy their own, exaltation or friendly houses or are placed in good houses (position other than the 6th, the 8th or the 12th) will be as those described so far. The effects of the Dasas of planets occupying inimical or depression houses, or that have been eclipsed (become invisible) or that happen to be in the 6th, the 8th or the 12th house will be the opposite of those described.
+
+════════════════════════════════════════════════════════════════
+NOTE: ఈ file Phaladeepika Adhyaya XX నుండి exact గా తీసుకోబడింది.
+DB11 engine bhava lord calculate చేసి → correct RULE_BHAVA[n]_MD pickup చేస్తుంది.
