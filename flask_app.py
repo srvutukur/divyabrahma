@@ -10,8 +10,8 @@ import DB11_engine as db11
 
 app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-GROQ_API_KEY = os.environ.get("GROQ_API_KEY", "")
-GROQ_MODEL = "llama-3.3-70b-versatile"
+CEREBRAS_API_KEY = os.environ.get("CEREBRAS_API_KEY", "")
+CEREBRAS_MODEL = "qwen-3-235b-a22b"
 
 def get_coords(pob):
     """Nominatim API వాడి city coordinates తెచ్చుకోవడం"""
@@ -23,12 +23,13 @@ def get_coords(pob):
         data = resp.json()
         if data:
             return float(data[0]["lat"]), float(data[0]["lon"])
+        raise ValueError(f"'{pob}' స్థలం కనుగొనలేదు — సరైన పేరు enter చేయండి")
+    except ValueError:
+        raise
     except Exception:
-        pass
-    return (17.3850, 78.4867)
+        raise ValueError("Location service error — మళ్ళీ try చేయండి")
 
 def load_v27_prompt():
-    """V27MasterPrompt.txt load చేయడం"""
     path = os.path.join(BASE_DIR, "V27MasterPrompt.txt")
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
@@ -36,7 +37,6 @@ def load_v27_prompt():
     return ""
 
 def load_kb2_lagna(lagna_te):
-    """లగ్నం KB file load చేయడం"""
     path = os.path.join(BASE_DIR, f"KB_{lagna_te}.txt")
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
@@ -44,33 +44,31 @@ def load_kb2_lagna(lagna_te):
     return ""
 
 def load_kb2():
-    """KB2.txt load చేయడం — first 6000 chars"""
     path = os.path.join(BASE_DIR, "KB2.txt")
     if os.path.exists(path):
         with open(path, "r", encoding="utf-8") as f:
             return f.read()[:6000]
     return ""
 
-def call_groq_analysis(summary_text, lagna_te, dasha_info):
-    """Groq API కి పంపి Telugu analysis తెచ్చుకోవడం"""
+def call_cerebras_analysis(summary_text, lagna_te, dasha_info):
+    """Cerebras API కి పంపి Telugu analysis తెచ్చుకోవడం"""
     v27 = load_v27_prompt()
     kb2_lagna = load_kb2_lagna(lagna_te)
     kb2_common = load_kb2()
 
-    # Confirmation block తీసేసి directly analysis అడగడం
     system_prompt = f"""మీరు దివ్య బ్రహ్మ ప్రవాహ జ్యోతిష్య నిపుణులు. 
 V27 Master Prompt ప్రకారం జాతక విశ్లేషణ Telugu లో ఇవ్వాలి.
-Confirmation అడగకూడదు. Echo చేసిన తర్వాత directly analysis ఇవ్వాలి.
+Confirmation అడగకూడదు. Ayanamsha Lahiri use చేయండి.
 శాస్త్ర citations తో — BPHS, Brihat Jataka, Saravali, Phaladeepika — వివరణ ఇవ్వాలి.
 
-V27 MASTER PROMPT (సంక్షిప్తం):
-{v27[:3000]}
+V27 MASTER PROMPT:
+{v27[:8000]}
 
 LAGNA KB DATA ({lagna_te}):
-{kb2_lagna[:2000]}
+{kb2_lagna[:4000]}
 
 KB2 COMMON:
-{kb2_common[:2000]}"""
+{kb2_common}"""
 
     user_prompt = f"""ఈ జాతకం విశ్లేషించండి:
 
@@ -96,11 +94,11 @@ STAGE 7 లో ఇవ్వాల్సింది:
 తెలుగులో మాత్రమే సమాధానం ఇవ్వండి. శాస్త్ర citations తప్పనిసరి."""
 
     headers = {
-        "Authorization": f"Bearer {GROQ_API_KEY}",
+        "Authorization": f"Bearer {CEREBRAS_API_KEY}",
         "Content-Type": "application/json"
     }
     payload = {
-        "model": GROQ_MODEL,
+        "model": CEREBRAS_MODEL,
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
@@ -110,7 +108,7 @@ STAGE 7 లో ఇవ్వాల్సింది:
     }
 
     resp = requests.post(
-        "https://api.groq.com/openai/v1/chat/completions",
+        "https://api.cerebras.ai/v1/chat/completions",
         headers=headers,
         json=payload,
         timeout=120
@@ -119,7 +117,7 @@ STAGE 7 లో ఇవ్వాల్సింది:
     if "choices" in result:
         return result["choices"][0]["message"]["content"]
     elif "error" in result:
-        return f"Groq Error: {result['error'].get('message', 'Unknown error')}"
+        return f"Cerebras Error: {result['error'].get('message', str(result['error']))}"
     return "Analysis రాలేదు — మళ్ళీ try చేయండి"
 
 
@@ -278,8 +276,8 @@ def generate():
         antar = dasha.get("antardasha", {})
         dasha_info = f"మహాదశ: {maha.get('planet_te','')} ({maha.get('start_date','')} – {maha.get('end_date','')}), అంతర్దశ: {antar.get('planet_te','')} ({antar.get('start_date','')} – {antar.get('end_date','')})"
 
-        # Step 5: Groq Telugu analysis
-        analysis = call_groq_analysis(summary, lagna_te, dasha_info)
+        # Step 5: Cerebras Telugu analysis
+        analysis = call_cerebras_analysis(summary, lagna_te, dasha_info)
 
         # Step 6: JSON save
         out_name = f"DB11_{dob.replace('/', '')}"
