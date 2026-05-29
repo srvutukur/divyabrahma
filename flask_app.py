@@ -11,7 +11,7 @@ import DB11_engine as db11
 app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CEREBRAS_API_KEY = os.environ.get("CEREBRAS_API_KEY", "")
-CEREBRAS_MODEL = "qwen-3-235b-a22b"
+CEREBRAS_MODEL = "llama-3.3-70b"
 
 def get_coords(pob):
     """Nominatim API వాడి city coordinates తెచ్చుకోవడం"""
@@ -118,7 +118,7 @@ STAGE 7 లో ఇవ్వాల్సింది:
         return result["choices"][0]["message"]["content"]
     elif "error" in result:
         return f"Cerebras Error: {result['error'].get('message', str(result['error']))}"
-    return "Analysis రాలేదు — మళ్ళీ try చేయండి"
+    return f"Analysis రాలేదు — Response: {str(result)[:500]}"
 
 
 HTML_FORM = """
