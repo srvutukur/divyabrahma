@@ -11,7 +11,7 @@ import DB11_engine as db11
 app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CEREBRAS_API_KEY = os.environ.get("CEREBRAS_API_KEY", "")
-CEREBRAS_MODEL = "llama-3.3-70b"
+CEREBRAS_MODEL = "gpt-oss-120b"
 
 def get_coords(pob):
     """Nominatim API వాడి city coordinates తెచ్చుకోవడం"""
