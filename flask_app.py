@@ -53,6 +53,31 @@ ABSOLUTELY FORBIDDEN:
 
 OUTPUT: STAGE 7 మాత్రమే — directly start చేయాలి
 
+WRITING STYLE — ఇది చాలా ముఖ్యం:
+- సాధారణ Telugu లో రాయాలి — జ్యోతిష్య technical terms వాడకూడదు
+- "షడ్బల", "లాభాధిపతి", "నీచభంగ", "అష్టమాధిపతి" వంటి పదాలు వద్దు
+- మనిషికి అర్థమయ్యే భాషలో జీవిత కథ లాగా చెప్పాలి
+- ప్రతి section లో Dasha period dates తప్పనిసరిగా ఇవ్వాలి
+- Past experience + current period + future periods తో చెప్పాలి
+
+EACH SECTION MUST BE DETAILED — minimum 5-6 sentences per section:
+
+【వ్యక్తిత్వం】 — లగ్నం బట్టి స్వభావం, బలాలు, బలహీనతలు వివరంగా చెప్పాలి
+【వృత్తి】 — past dashas లో career ఎలా ఉంది, ప్రస్తుత dasha లో ఏం జరుగుతోంది, future dashas లో ఏమి వస్తుంది — అన్నీ dates తో చెప్పాలి
+【ఆర్థిక స్థితి】 — past కష్టాలు, present స్థితి, future అభివృద్ధి — dates తో వివరంగా
+【ఆరోగ్యం】 — ప్రస్తుత dasha లో జాగ్రత్తలు, future లో మెరుగుదల — dates తో
+【కుటుంబం】 — తల్లిదండ్రులు, సోదరులు, పిల్లలు, జీవిత భాగస్వామి విడిగా చెప్పాలి
+【సామాజిక స్థాయి / నాయకత్వం】 — గుర్తింపు, సమాజంలో స్థానం, future recognition
+【ఆధ్యాత్మికం】 — ఆధ్యాత్మిక ప్రవృత్తి, future spiritual growth
+
+EXAMPLE OUTPUT STYLE (ఇలా రాయాలి):
+【వృత్తి】
+మీ వృత్తి జీవితంలో అత్యంత మంచి కాలం శుక్ర మహాదశ (1971–1991) లో జరిగింది — ఆ 20 సంవత్సరాలు మీ career పునాది బలంగా ఏర్పడింది.
+రాహు మహాదశ — రాహు అంతర్దశ మరియు రాహు మహాదశ — గురు అంతర్దశ (డిసెంబర్ 2014 – జూన్ 2020) కాలంలో సోషల్ రంగంలో మీరు చాలా active గా ఉన్నారు — unexpected గా అవకాశాలు వచ్చాయి, నెట్వర్క్ విస్తరించింది, గుర్తింపు వచ్చింది.
+రాహు మహాదశ — శని అంతర్దశ నుండి రాహు మహాదశ — కేతు అంతర్దశ (జూన్ 2020 – జులై 2026) కాలంలో ఆ వేగం తగ్గింది — ఆరోగ్య కారణాలు కూడా దోహదపడ్డాయి.
+రాహు మహాదశ — శుక్ర అంతర్దశ (జులై 2026 – జులై 2029) నుండి మళ్ళీ వృత్తిలో చురుకుదనం వచ్చే సంభావ్యత ఉంది — సోషల్ రంగంలో తిరిగి గుర్తింపు వచ్చే కాలం ఇది.
+గురువు మహాదశ — గురువు అంతర్దశ (డిసెంబర్ 2032 – మే 2035) నుండి career లో చివరి దశ అత్యంత అనుకూలంగా ఉంటుంది — ఇది మీ జీవితంలో పెద్ద recognition వచ్చే కాలం.
+
 STAGE 7 ఈ exact format లో ఇవ్వండి:
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -82,7 +107,7 @@ STAGE 7 ఈ exact format లో ఇవ్వండి:
         "messages": [
             {"role": "user", "content": user_message}
         ],
-        "max_tokens": 4000,
+        "max_tokens": 32768,
         "temperature": 0.3
     }
 
@@ -248,10 +273,6 @@ def generate():
         # Step 3: build_analysis_prompt() — V27 + KB1 + KB2 + JSON full prompt
         full_prompt = db11.build_analysis_prompt(result_data, BASE_DIR)
 
-        # Step 4: Token limit — Deepseek-v4-flash 32000 tokens limit
-        # 1 token ~ 4 chars, 32000 tokens ~ 120000 chars
-        if len(full_prompt) > 180000:
-            full_prompt = full_prompt[:180000]
 
         # Step 5: Deepseek కి full prompt పంపడం
         analysis = call_deepseek_free_report(full_prompt)
