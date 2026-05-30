@@ -11,7 +11,7 @@ import DB11_engine as db11
 app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
-DEEPSEEK_MODEL = "deepseek-v4-flash"
+DEEPSEEK_MODEL = "deepseek-v4-pro"
 
 def get_coords(pob):
     try:
@@ -28,56 +28,30 @@ def get_coords(pob):
     except Exception:
         raise ValueError("Location service error — మళ్ళీ try చేయండి")
 
-def load_v27_prompt():
-    path = os.path.join(BASE_DIR, "V27MasterPrompt.txt")
-    if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
-            return f.read()
-    return ""
+def call_deepseek_free_report(full_analysis_prompt):
+    """
+    build_analysis_prompt() నుండి వచ్చే full prompt Deepseek కి పంపడం
+    Tab లో manually చేసినట్టే — V27 + KB1 + KB2 + JSON అన్నీ included
+    """
+    # Full prompt లో STAGE 7 మాత్రమే return చేయమని instruction add చేయడం
+    user_message = full_analysis_prompt + """
 
-def load_kb2_lagna(lagna_te):
-    path = os.path.join(BASE_DIR, f"KB_{lagna_te}.txt")
-    if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
-            return f.read()
-    return ""
-
-def load_kb2():
-    path = os.path.join(BASE_DIR, "KB2.txt")
-    if os.path.exists(path):
-        with open(path, "r", encoding="utf-8") as f:
-            return f.read()[:6000]
-    return ""
-
-def call_deepseek_free_report(summary_text, lagna_te, dasha_info):
-    v27 = load_v27_prompt()
-    kb2_lagna = load_kb2_lagna(lagna_te)
-    kb2_common = load_kb2()
-
-    system_prompt = f"""మీరు దివ్య బ్రహ్మ ప్రవాహ జ్యోతిష్య నిపుణులు.
-V27 Master Prompt ప్రకారం జాతక విశ్లేషణ Telugu లో ఇవ్వాలి.
-Confirmation అడగకూడదు. Ayanamsha Lahiri use చేయండి.
-శాస్త్ర ఆధారంగా — BPHS, Brihat Jataka, Saravali, Phaladeepika — వివరణ ఇవ్వాలి.
-
-V27 MASTER PROMPT:
-{v27[:8000]}
-
-LAGNA KB DATA ({lagna_te}):
-{kb2_lagna[:4000]}
-
-KB2 COMMON:
-{kb2_common}"""
-
-    user_prompt = f"""ఈ జాతకం విశ్లేషించండి:
-
-{summary_text}
-
-ప్రస్తుత దశ: {dasha_info}
-
-INSTRUCTIONS:
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+STRICT RULES — ఎట్టి పరిస్థితుల్లో వీటిని follow చేయాలి:
+1. మీ సొంత జ్యోతిష్య జ్ఞానం వాడకూడదు — DB11 engine JSON data మాత్రమే వాడాలి
+2. V27 Master Prompt rules మాత్రమే follow చేయాలి — వేరే system వాడకూడదు
+3. KB1 + KB2 లో ఉన్న శాస్త్ర citations మాత్రమే వాడాలి — మీ అంచనాలు వద్దు
+4. DB11 JSON లో లేని విషయాలు చెప్పకూడదు — fabricate చేయకూడదు
+5. Confirmation అడగకూడదు
+6. Ayanamsha Lahiri use చేయండి
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FINAL INSTRUCTION:
+- STAGE 0 నుండి STAGE 6 వరకు internally process చేయండి
+- Client కి STAGE 7 మాత్రమే చూపించాలి
 - Confirmation అడగకూడదు
-- STAGE 1 నుండి STAGE 6 internally process చేయండి — చూపించకూడదు
-- STAGE 7 మాత్రమే Telugu లో ఇవ్వాలి — ఈ format లో:
+- Ayanamsha Lahiri use చేయండి
+
+STAGE 7 ఈ exact format లో ఇవ్వండి:
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 🔱 మీ జీవన సారాంశం
@@ -104,8 +78,7 @@ INSTRUCTIONS:
     payload = {
         "model": DEEPSEEK_MODEL,
         "messages": [
-            {"role": "system", "content": system_prompt},
-            {"role": "user", "content": user_prompt}
+            {"role": "user", "content": user_message}
         ],
         "max_tokens": 4000,
         "temperature": 0.3
@@ -115,7 +88,7 @@ INSTRUCTIONS:
         "https://api.deepseek.com/v1/chat/completions",
         headers=headers,
         json=payload,
-        timeout=120
+        timeout=180
     )
     result = resp.json()
     if "choices" in result:
@@ -260,24 +233,28 @@ def generate():
         if not dob or not tob or not pob:
             return jsonify({'success': False, 'error': 'వివరాలు సరిగ్గా ఇవ్వండి'})
 
+        # Step 1: Coordinates
         lat, lon = get_coords(pob)
 
+        # Step 2: DB11 engine run
         result_data = db11.generate_v21(
             dob, tob, lat, lon, pob,
             timezone=5.5,
             ayan_mode="lahiri"
         )
 
-        summary = db11.generate_summary(result_data)
+        # Step 3: build_analysis_prompt() — V27 + KB1 + KB2 + JSON full prompt
+        full_prompt = db11.build_analysis_prompt(result_data, BASE_DIR)
 
-        lagna_te = result_data.get("d1", {}).get("lagna", {}).get("rashi_te", "వృశ్చికం")
-        dasha = result_data.get("dasha", {})
-        maha = dasha.get("mahadasha", {})
-        antar = dasha.get("antardasha", {})
-        dasha_info = f"మహాదశ: {maha.get('planet_te','')} ({maha.get('start_date','')} – {maha.get('end_date','')}), అంతర్దశ: {antar.get('planet_te','')} ({antar.get('start_date','')} – {antar.get('end_date','')})"
+        # Step 4: Token limit — Deepseek-v4-flash 32000 tokens limit
+        # 1 token ~ 4 chars, 32000 tokens ~ 120000 chars
+        if len(full_prompt) > 180000:
+            full_prompt = full_prompt[:180000]
 
-        analysis = call_deepseek_free_report(summary, lagna_te, dasha_info)
+        # Step 5: Deepseek కి full prompt పంపడం
+        analysis = call_deepseek_free_report(full_prompt)
 
+        # Step 5: JSON save
         out_name = f"DB11_{dob.replace('/', '')}"
         json_path = os.path.join(BASE_DIR, f"{out_name}.json")
         with open(json_path, 'w', encoding='utf-8') as f:
