@@ -10,11 +10,10 @@ import DB11_engine as db11
 
 app = Flask(__name__)
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-CEREBRAS_API_KEY = os.environ.get("CEREBRAS_API_KEY", "")
-CEREBRAS_MODEL = "gpt-oss-120b"
+DEEPSEEK_API_KEY = os.environ.get("DEEPSEEK_API_KEY", "")
+DEEPSEEK_MODEL = "deepseek-v4-flash"
 
 def get_coords(pob):
-    """Nominatim API వాడి city coordinates తెచ్చుకోవడం"""
     try:
         url = "https://nominatim.openstreetmap.org/search"
         params = {"q": pob, "format": "json", "limit": 1}
@@ -50,16 +49,15 @@ def load_kb2():
             return f.read()[:6000]
     return ""
 
-def call_cerebras_analysis(summary_text, lagna_te, dasha_info):
-    """Cerebras API కి పంపి Telugu analysis తెచ్చుకోవడం"""
+def call_deepseek_free_report(summary_text, lagna_te, dasha_info):
     v27 = load_v27_prompt()
     kb2_lagna = load_kb2_lagna(lagna_te)
     kb2_common = load_kb2()
 
-    system_prompt = f"""మీరు దివ్య బ్రహ్మ ప్రవాహ జ్యోతిష్య నిపుణులు. 
+    system_prompt = f"""మీరు దివ్య బ్రహ్మ ప్రవాహ జ్యోతిష్య నిపుణులు.
 V27 Master Prompt ప్రకారం జాతక విశ్లేషణ Telugu లో ఇవ్వాలి.
 Confirmation అడగకూడదు. Ayanamsha Lahiri use చేయండి.
-శాస్త్ర citations తో — BPHS, Brihat Jataka, Saravali, Phaladeepika — వివరణ ఇవ్వాలి.
+శాస్త్ర ఆధారంగా — BPHS, Brihat Jataka, Saravali, Phaladeepika — వివరణ ఇవ్వాలి.
 
 V27 MASTER PROMPT:
 {v27[:8000]}
@@ -76,29 +74,35 @@ KB2 COMMON:
 
 ప్రస్తుత దశ: {dasha_info}
 
-IMPORTANT INSTRUCTIONS:
+INSTRUCTIONS:
 - Confirmation అడగకూడదు
-- Ayanamsha selection అడగకూడదు — Lahiri use చేయండి
-- STAGE 1 నుండి STAGE 6 వరకు internally process చేయండి — client కి చూపించకూడదు
-- STAGE 7 సారాంశం మాత్రమే Telugu లో ఇవ్వాలి
+- STAGE 1 నుండి STAGE 6 internally process చేయండి — చూపించకూడదు
+- STAGE 7 మాత్రమే Telugu లో ఇవ్వాలి — ఈ format లో:
 
-STAGE 7 లో ఇవ్వాల్సింది:
-1. జాతక సంక్షిప్తం — లగ్నం, ముఖ్య గ్రహ స్థానాలు
-2. ప్రస్తుత మహాదశ/అంతర్దశ ఫలాలు
-3. Career మరియు Finance స్థితి
-4. Health విచారణ
-5. వివాహ/కుటుంబ స్థితి
-6. వచ్చే 2 సంవత్సరాల శుభ/అశుభ కాలాలు
-7. పరిహారాలు (Remedies)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+🔱 మీ జీవన సారాంశం
+వయస్సు: [వయస్సు] సంవత్సరాలు | TIER-[1/2/3]
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+【వ్యక్తిత్వం】
+【వృత్తి】
+【ఆర్థిక స్థితి】
+【ఆరోగ్యం】
+【కుటుంబం】
+【సామాజిక స్థాయి / నాయకత్వం】
+【ఆధ్యాత్మికం】
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+⚠️ గమనిక: ఇవి సంభావ్యతలు మాత్రమే. వ్యక్తిగత విషయాల కోసం అనుభవజ్ఞుడైన జ్యోతిష్యుడిని సంప్రదించండి.
+🔱 దివ్య బ్రహ్మ ప్రవాహ V27.0
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-తెలుగులో మాత్రమే సమాధానం ఇవ్వండి. శాస్త్ర citations తప్పనిసరి."""
+తెలుగులో మాత్రమే సమాధానం ఇవ్వండి."""
 
     headers = {
-        "Authorization": f"Bearer {CEREBRAS_API_KEY}",
+        "Authorization": f"Bearer {DEEPSEEK_API_KEY}",
         "Content-Type": "application/json"
     }
     payload = {
-        "model": CEREBRAS_MODEL,
+        "model": DEEPSEEK_MODEL,
         "messages": [
             {"role": "system", "content": system_prompt},
             {"role": "user", "content": user_prompt}
@@ -108,7 +112,7 @@ STAGE 7 లో ఇవ్వాల్సింది:
     }
 
     resp = requests.post(
-        "https://api.cerebras.ai/v1/chat/completions",
+        "https://api.deepseek.com/v1/chat/completions",
         headers=headers,
         json=payload,
         timeout=120
@@ -117,7 +121,7 @@ STAGE 7 లో ఇవ్వాల్సింది:
     if "choices" in result:
         return result["choices"][0]["message"]["content"]
     elif "error" in result:
-        return f"Cerebras Error: {result['error'].get('message', str(result['error']))}"
+        return f"Deepseek Error: {result['error'].get('message', str(result['error']))}"
     return f"Analysis రాలేదు — Response: {str(result)[:500]}"
 
 
@@ -187,7 +191,7 @@ HTML_FORM = """
 
     <button id="btn" onclick="submitForm()">జాతకం విశ్లేషించండి →</button>
 
-    <div id="loading">⏳ DB11 Engine + AI Analysis run అవుతోంది...<br>దయచేసి 2-3 నిమిషాలు వేచి ఉండండి...</div>
+    <div id="loading">⏳ DB11 Engine run అవుతోంది...<br>దయచేసి 2-3 నిమిషాలు వేచి ఉండండి...</div>
     <div id="result"></div>
 
     <script>
@@ -256,30 +260,24 @@ def generate():
         if not dob or not tob or not pob:
             return jsonify({'success': False, 'error': 'వివరాలు సరిగ్గా ఇవ్వండి'})
 
-        # Step 1: Coordinates
         lat, lon = get_coords(pob)
 
-        # Step 2: DB11 engine run
         result_data = db11.generate_v21(
             dob, tob, lat, lon, pob,
             timezone=5.5,
             ayan_mode="lahiri"
         )
 
-        # Step 3: Summary generate
         summary = db11.generate_summary(result_data)
 
-        # Step 4: Lagna + Dasha info
         lagna_te = result_data.get("d1", {}).get("lagna", {}).get("rashi_te", "వృశ్చికం")
         dasha = result_data.get("dasha", {})
         maha = dasha.get("mahadasha", {})
         antar = dasha.get("antardasha", {})
         dasha_info = f"మహాదశ: {maha.get('planet_te','')} ({maha.get('start_date','')} – {maha.get('end_date','')}), అంతర్దశ: {antar.get('planet_te','')} ({antar.get('start_date','')} – {antar.get('end_date','')})"
 
-        # Step 5: Cerebras Telugu analysis
-        analysis = call_cerebras_analysis(summary, lagna_te, dasha_info)
+        analysis = call_deepseek_free_report(summary, lagna_te, dasha_info)
 
-        # Step 6: JSON save
         out_name = f"DB11_{dob.replace('/', '')}"
         json_path = os.path.join(BASE_DIR, f"{out_name}.json")
         with open(json_path, 'w', encoding='utf-8') as f:
