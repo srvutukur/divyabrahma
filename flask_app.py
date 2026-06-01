@@ -193,20 +193,22 @@ HTML_FORM = """
             max-height: 600px; overflow-y: auto; border: 1px solid #333;
         }
         .error { color: #ff6b6b; }
+        .contact { text-align: center; color: #aaa; font-size: 13px; margin-bottom: 16px; }
     </style>
 </head>
 <body>
     <h1>🔱 దివ్య బ్రహ్మ జ్యోతిష్యం</h1>
     <p class="subtitle">DB11 Engine V27 — శాస్త్ర ఆధారిత Telugu Jyotish Report</p>
+    <p class="contact">📞 సంప్రదించండి: <a href="tel:9381394456" style="color:#ffd700;">9381394456</a></p>
 
     <label>జన్మ తేదీ (DD/MM/YYYY)</label>
-    <input type="text" id="dob" placeholder="25/11/1966" maxlength="10" />
+    <input type="text" id="dob" placeholder="DD/MM/YYYY" maxlength="10" />
 
-    <label>జన్మ సమయం (HH:MM లేదా HH:MM:SS)</label>
-    <input type="text" id="tob" placeholder="06:19" maxlength="8" />
+    <label>జన్మ సమయం (HH:MM)</label>
+    <input type="text" id="tob" placeholder="HH:MM (ఉదా: 06:19)" maxlength="8" />
 
-    <label>జన్మ స్థలం (ఏ city అయినా, ఏ country అయినా)</label>
-    <input type="text" id="pob" placeholder="Hyderabad, New York, London..." />
+    <label>జన్మ స్థలం (City, State, Country)</label>
+    <input type="text" id="pob" placeholder="ఉదా: Hyderabad, Telangana, India" />
 
     <label>విచారణ విషయం</label>
     <select id="focus">
@@ -219,8 +221,21 @@ HTML_FORM = """
 
     <button id="btn" onclick="submitForm()">జాతకం విశ్లేషించండి →</button>
 
-    <div id="loading">⏳ DB11 Engine run అవుతోంది...<br>దయచేసి 2-3 నిమిషాలు వేచి ఉండండి...</div>
+    <div id="loading">
+        <p style="font-size:18px; color:#ffd700;">🔱 మీ జాతకాన్ని లోతుగా పరిశీలిస్తున్నాము...</p>
+        <p style="margin-top:12px; color:#ccc; font-size:14px; line-height:1.8;">
+        వరాహమిహిరుడు, పరాశరుడు, కళ్యాణ వర్మ వంటి<br>
+        భారతీయ మహర్షుల శాస్త్ర గ్రంథాల నుండి<br>
+        లోతైన విశ్లేషణ చేస్తూ మీ జాతకాన్ని<br>
+        సమగ్రంగా అధ్యయనం చేస్తున్నాము.<br><br>
+        <span style="color:#ffd700;">దయచేసి కొద్దిసేపు వేచి ఉండండి...</span>
+        </p>
+    </div>
     <div id="result"></div>
+    <div id="footer-contact" style="display:none; text-align:center; margin-top:24px; padding:16px; background:#16213e; border-radius:8px; border:1px solid #333;">
+        <p style="color:#ffd700; font-size:15px;">🔱 దివ్య బ్రహ్మ జ్యోతిష్యం</p>
+        <p style="color:#aaa; font-size:14px;">మరిన్ని వివరాలకు సంప్రదించండి: <a href="tel:9381394456" style="color:#ffd700;">📞 9381394456</a></p>
+    </div>
 
     <script>
         async function submitForm() {
@@ -254,6 +269,7 @@ HTML_FORM = """
                 if (data.success) {
                     document.getElementById('result').className = '';
                     document.getElementById('result').innerText = data.analysis;
+                    document.getElementById('footer-contact').style.display = 'block';
                 } else {
                     document.getElementById('result').className = 'error';
                     document.getElementById('result').innerText = 'Error: ' + data.error;
